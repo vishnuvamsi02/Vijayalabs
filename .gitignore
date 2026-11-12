@@ -1,0 +1,9 @@
+# Dependencies & OS Files
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Extracted Docx working files
+docx_extracted/

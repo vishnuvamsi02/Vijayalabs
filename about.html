@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Sri Vijaya Clinical Laboratories | 25+ Years of Diagnostic Excellence</title>
+  <meta name="description" content="Discover Sri Vijaya Clinical Laboratories' 25+ year journey since 1997 in Palakollu, Bhimavaram and Tatipaka. State-of-the-art diagnostic centers, clinical leadership by Ln. Kommula Murali Krishna and Dr. K. Prasanthi M.D.">
+  <link rel="icon" type="image/png" href="assets/images/cropped-logo-png.png">
+  
+  <!-- Font Awesome 6 Pro / Free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Modern Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Reports removed) -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge"><i class="fa-solid fa-award"></i> Silver Jubilee (1997 - 2026)</span>
+        <span class="topbar-link"><i class="fa-solid fa-clock"></i> 24/7 STAT Lab Services Available</span>
+        <span class="topbar-link"><i class="fa-solid fa-location-dot"></i> Palakollu · Bhimavaram · Tatipaka</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+919577334499" class="topbar-link"><i class="fa-solid fa-phone"></i> +91 95773 34499</a>
+        <a href="home-collection.html" class="topbar-link" style="color: var(--accent-teal); font-weight: 700;">
+          <i class="fa-solid fa-house-medical"></i> Free Home Collection &gt; ₹500
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header (Exact Ordered Nav: 1. Home, 2. About Us, 3. Health Packages [with Lab Tests dropdown], 4. Home Collection, 5. Contact) -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo-group">
+          <a href="index.html" style="display: flex; align-items: center; gap: 0.75rem;">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="site-logo">
+            <img src="assets/images/25_year_logo-1024x974.png" alt="25 Years Excellence" class="silver-jubilee-badge">
+          </a>
+        </div>
+
+        <nav class="nav-menu">
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="about.html" class="nav-link active">About Us</a></div>
+          
+          <!-- Dropdown: Health Packages & Lab Tests -->
+          <div class="nav-item has-dropdown">
+            <a href="packages.html" class="nav-link">
+              Health Packages <i class="fa-solid fa-chevron-down nav-dropdown-arrow"></i>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="packages.html" class="dropdown-item">
+                <div class="dropdown-icon teal"><i class="fa-solid fa-shield-heart"></i></div>
+                <div>
+                  <div class="dropdown-title">All Health Packages</div>
+                  <div class="dropdown-desc">Comprehensive preventive full-body health checks</div>
+                </div>
+              </a>
+              <a href="tests.html" class="dropdown-item">
+                <div class="dropdown-icon blue"><i class="fa-solid fa-flask-vial"></i></div>
+                <div>
+                  <div class="dropdown-title">Diagnostic Lab Tests Directory</div>
+                  <div class="dropdown-desc">86 individual blood, urine, & molecular tests</div>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown-quick-links">
+                <span class="dropdown-quick-heading">Popular Categories:</span>
+                <div class="dropdown-chips">
+                  <a href="tests.html?cat=hematology">Hematology</a>
+                  <a href="tests.html?cat=biochemistry">Bio-Chemistry</a>
+                  <a href="tests.html?cat=hormones">Thyroid & Vitamins</a>
+                  <a href="tests.html?cat=lipid">Lipid & Heart</a>
+                  <a href="tests.html?cat=liver">Liver (LFT)</a>
+                  <a href="tests.html?cat=molecular">Molecular PCR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item"><a href="home-collection.html" class="nav-link">Home Collection</a></div>
+          <div class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></div>
+          <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="search-trigger-btn" aria-label="Search tests" onclick="openSearchModal()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Search tests...</span>
+          </button>
+
+          <button class="btn btn-primary btn-sm" onclick="openBookingCheckoutWizard()">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book Test</span>
+          </button>
+
+          <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section style="background: radial-gradient(circle at 80% 25%, rgba(0, 168, 150, 0.18) 0%, transparent 60%), linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 100%); color: var(--white); padding: 5rem 0 4rem 0;">
+    <div class="container text-center" style="text-align: center;">
+      <span class="badge badge-teal" style="margin-bottom: 1rem;"><i class="fa-solid fa-shield-halved"></i> Serving West Godavari & Konaseema Since 1997</span>
+      <h1 style="color: var(--white); font-size: clamp(2.2rem, 4vw, 3.4rem); margin-bottom: 1.25rem; font-weight: 800;">
+        25+ Years of Diagnostic Precision, Compassion & Trust
+      </h1>
+      <p style="color: var(--neutral-300); max-width: 750px; margin: 0 auto 2rem auto; font-size: 1.15rem; line-height: 1.65;">
+        From a pioneering community laboratory in Palakollu to a multi-branch, fully automated reference healthcare network serving over 10 million patients with uncompromised clinical integrity.
+      </p>
+
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="#centers" class="btn btn-accent btn-lg"><i class="fa-solid fa-hospital"></i> Explore Diagnostic Centres</a>
+        <a href="#leadership" class="btn btn-outline-white btn-lg"><i class="fa-solid fa-user-doctor"></i> Medical Leadership</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Heritage & District First Automated Lab -->
+  <section style="padding: 5rem 0; background: var(--white);">
+    <div class="container">
+      <div class="responsive-split-hero" style="align-items: center;">
+        <div>
+          <span class="section-tag emerald"><i class="fa-solid fa-landmark"></i> Our Heritage</span>
+          <h2 style="font-size: clamp(1.8rem, 2.8vw, 2.4rem); color: var(--primary-900); margin-bottom: 1.25rem; font-weight: 800; line-height: 1.2;">
+            The First Automated Clinical Laboratory in the District
+          </h2>
+          <p style="color: var(--neutral-700); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1.25rem;">
+            <strong>Sri Vijaya Clinical Laboratories</strong> has successfully completed more than a quarter-century of dedicated service in clinical diagnostics, founded in the culturally vibrant and holistic town of Palakollu in 1997.
+          </p>
+          <p style="color: var(--neutral-600); line-height: 1.7; margin-bottom: 1.25rem;">
+            Equipped with world-class, state-of-the-art robotic instrumentation, automated chemiluminescence analyzers, and advanced computing infrastructure, we operate at the frontier areas of diagnostics. Our accurate reporting systems assist clinicians with rapid, evidence-based medical decisions while connecting patients and doctors with real-time digital health information.
+          </p>
+          <p style="color: var(--neutral-600); line-height: 1.7; margin-bottom: 2rem;">
+            Under one roof, we offer comprehensive blood investigations, urine analysis, body fluid cytology, histopathology, molecular biology, and microbiology — complemented by doorstep home sample collection across West Godavari and Dr. B.R. Ambedkar Konaseema districts.
+          </p>
+
+          <!-- Redesigned Animated Trust Stats (Requirement 2) -->
+          <div class="stats-cards-grid stats-grid-3" style="margin-top: 2rem;">
+            <div class="stat-card-modern" style="padding: 1.25rem 1rem;">
+              <div class="stat-icon-wrapper blue" style="width: 44px; height: 44px; font-size: 1.15rem;"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <div class="stat-card-number stat-number" data-target="25" data-suffix="+" style="font-size: 1.85rem;">0</div>
+                <div class="stat-card-title" style="font-size: 0.85rem;">Years Serving Andhra</div>
+                <div class="stat-card-sub" style="font-size: 0.75rem;">Trusted since 1997</div>
+              </div>
+            </div>
+
+            <div class="stat-card-modern" style="padding: 1.25rem 1rem;">
+              <div class="stat-icon-wrapper teal" style="width: 44px; height: 44px; font-size: 1.15rem;"><i class="fa-solid fa-hospital-user"></i></div>
+              <div>
+                <div class="stat-card-number stat-number" data-target="10" data-suffix="M+" style="font-size: 1.85rem;">0</div>
+                <div class="stat-card-title" style="font-size: 0.85rem;">Patients Tested</div>
+                <div class="stat-card-sub" style="font-size: 0.75rem;">10M+ Investigations</div>
+              </div>
+            </div>
+
+            <div class="stat-card-modern" style="padding: 1.25rem 1rem;">
+              <div class="stat-icon-wrapper emerald" style="width: 44px; height: 44px; font-size: 1.15rem;"><i class="fa-solid fa-vial-circle-check"></i></div>
+              <div>
+                <div class="stat-card-number stat-number" data-target="100" data-suffix="%" style="font-size: 1.85rem;">0</div>
+                <div class="stat-card-title" style="font-size: 0.85rem;">EQAS Quality Index</div>
+                <div class="stat-card-sub" style="font-size: 0.75rem;">CMC Vellore standard</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="position: relative; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-xl); border: 4px solid var(--white);">
+            <img src="assets/images/DSC4607-scaled.jpg" alt="Sri Vijaya Clinical Laboratory Automated Facility" style="width: 100%; height: auto; aspect-ratio: 16 / 11; object-fit: cover; object-position: center 25%; display: block;">
+            <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(0deg, rgba(10, 47, 87, 0.9) 0%, rgba(10, 47, 87, 0) 100%); padding: 2rem 1.5rem 1.25rem 1.5rem; color: var(--white);">
+              <span class="badge badge-teal" style="margin-bottom: 0.4rem;"><i class="fa-solid fa-microchip"></i> High-Throughput Automation</span>
+              <div style="font-weight: 700; font-size: 1.1rem;">Palakollu Central Reference Laboratory</div>
+              <div style="font-size: 0.85rem; color: var(--neutral-300);">Equipped with bidirectional LIS interfacing and automated robotic tube handling</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Item 2: Comprehensive Diagnostic Centers Section -->
+  <section id="centers" style="padding: 5.5rem 0; background: var(--neutral-50); border-top: 1px solid var(--neutral-200); border-bottom: 1px solid var(--neutral-200);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag teal"><i class="fa-solid fa-hospital"></i> Infrastructure & Network</span>
+        <h2 class="section-title">Our State-of-the-Art Diagnostic Centres</h2>
+        <p class="section-subtitle">
+          Strategically located across West Godavari and Konaseema with full-scale automated analyzers, sterile sample drawing lounges, and dedicated emergency STAT testing.
+        </p>
+      </div>
+
+      <!-- Center Cards Grid -->
+      <div class="branches-grid">
+        
+        <!-- Center 1: Palakollu Central Reference Lab -->
+        <div class="center-card" style="background: var(--white); border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-md); display: flex; flex-direction: column;">
+          <div style="position: relative; height: 240px; overflow: hidden;">
+            <img src="assets/images/DSC4607-scaled.jpg" alt="Palakollu Central Reference Laboratory" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%; transition: transform 0.4s ease;">
+            <div style="position: absolute; top: 1rem; left: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span class="badge badge-emerald" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25);"><i class="fa-solid fa-bolt"></i> 24/7 STAT Lab</span>
+              <span class="badge badge-primary" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25);">Central Hub</span>
+            </div>
+          </div>
+
+          <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+            <h3 style="font-size: 1.35rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 800;">
+              Palakollu Central Reference Lab
+            </h3>
+            <div style="font-size: 0.85rem; color: var(--accent-teal-dark); font-weight: 700; margin-bottom: 1rem;">
+              <i class="fa-solid fa-building-circle-check"></i> Headquarters & High-Volume Reference Facility
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--neutral-600);">
+              <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
+                <i class="fa-solid fa-location-dot" style="color: var(--primary-600); margin-top: 0.25rem;"></i>
+                <div>Opp. Head Post Office, Journalist Colony, Palakollu, West Godavari – 534260</div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; align-items: center;">
+                <i class="fa-solid fa-clock" style="color: var(--emerald-600);"></i>
+                <div><strong>Open 24/7</strong> (STAT Emergency Department Always Active)</div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; align-items: center;">
+                <i class="fa-solid fa-phone" style="color: var(--primary-600);"></i>
+                <div><a href="tel:+919577334499" style="font-weight: 700; color: var(--primary-900);">+91 95773 34499</a> / 08814 224499</div>
+              </div>
+            </div>
+
+            <div style="background: var(--neutral-50); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem; font-size: 0.825rem; color: var(--neutral-700);">
+              <div style="font-weight: 700; color: var(--primary-900); margin-bottom: 0.4rem; text-transform: uppercase;">Infrastructure Highlights:</div>
+              <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.35rem;">
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Fully Automated Chemiluminescence (CLIA)</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Real-Time PCR Molecular Testing Suite</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Automated 5-Part Differential Hematology</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> VIP Air-Conditioned Phlebotomy Lounge</li>
+              </ul>
+            </div>
+
+            <div style="margin-top: auto; display: flex; gap: 0.75rem;">
+              <a href="tel:+919577334499" class="btn btn-primary btn-sm" style="flex: 1;">
+                <i class="fa-solid fa-phone"></i> Call Centre
+              </a>
+              <a href="https://maps.google.com/?q=Sri+Vijaya+Clinical+Laboratories+Palakollu" target="_blank" class="btn btn-outline btn-sm" style="flex: 1;">
+                <i class="fa-solid fa-diamond-turn-right"></i> Directions
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center 2: Bhimavaram Regional Branch & Omics Next Gen -->
+        <div class="center-card" style="background: var(--white); border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-md); display: flex; flex-direction: column;">
+          <div style="position: relative; height: 240px; overflow: hidden;">
+            <img src="assets/images/DSC4620-scaled.jpg" alt="Bhimavaram Regional Centre & Omics Diagnostics" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;">
+            <div style="position: absolute; top: 1rem; left: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span class="badge badge-teal" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25);"><i class="fa-solid fa-dna"></i> Omics Next Gen</span>
+              <span class="badge badge-primary" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25);">Regional Hub</span>
+            </div>
+          </div>
+
+          <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+            <h3 style="font-size: 1.35rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 800;">
+              Bhimavaram Regional Branch
+            </h3>
+            <div style="font-size: 0.85rem; color: var(--accent-teal-dark); font-weight: 700; margin-bottom: 1rem;">
+              <i class="fa-solid fa-dna"></i> Advanced Omics Diagnostics & Clinical Pathology
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--neutral-600);">
+              <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
+                <i class="fa-solid fa-location-dot" style="color: var(--primary-600); margin-top: 0.25rem;"></i>
+                <div>Near Someswara Swamy Temple Road / Prakasham Chowk, Bhimavaram – 534201</div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; align-items: center;">
+                <i class="fa-solid fa-clock" style="color: var(--emerald-600);"></i>
+                <div>Mon – Sat: 6:30 AM – 9:00 PM | Sun: 7:00 AM – 2:00 PM</div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; align-items: center;">
+                <i class="fa-solid fa-phone" style="color: var(--primary-600);"></i>
+                <div><a href="tel:+917875712345" style="font-weight: 700; color: var(--primary-900);">+91 78757 12345</a> / +91 95773 34499</div>
+              </div>
+            </div>
+
+            <div style="background: var(--neutral-50); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem; font-size: 0.825rem; color: var(--neutral-700);">
+              <div style="font-weight: 700; color: var(--primary-900); margin-bottom: 0.4rem; text-transform: uppercase;">Infrastructure Highlights:</div>
+              <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.35rem;">
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Advanced Clinical Biochemistry & Cardiac Markers</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Fasting Blood Sugar & Diabetes Rapid Workstation</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Specialized Phlebotomy Bays for Children & Elderly</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Temperature-Controlled Cold Transport to Central Hub</li>
+              </ul>
+            </div>
+
+            <div style="margin-top: auto; display: flex; gap: 0.75rem;">
+              <a href="tel:+917875712345" class="btn btn-primary btn-sm" style="flex: 1;">
+                <i class="fa-solid fa-phone"></i> Call Centre
+              </a>
+              <a href="https://maps.google.com/?q=Sri+Vijaya+Clinical+Laboratories+Bhimavaram" target="_blank" class="btn btn-outline btn-sm" style="flex: 1;">
+                <i class="fa-solid fa-diamond-turn-right"></i> Directions
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center 3: Tatipaka / Razole Konaseema Diagnostic Hub -->
+        <div class="center-card" style="background: var(--white); border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-md); display: flex; flex-direction: column;">
+          <div style="position: relative; height: 240px; overflow: hidden;">
+            <img src="assets/images/DSC4766-scaled.jpg" alt="Tatipaka Konaseema Diagnostic Hub" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;">
+            <div style="position: absolute; top: 1rem; left: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span class="badge badge-amber" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25);"><i class="fa-solid fa-map-pin"></i> Konaseema Hub</span>
+              <span class="badge badge-primary" style="box-shadow: 0 2px 8px rgba(0,0,0,0.25);">Razole Belt</span>
+            </div>
+          </div>
+
+          <div style="padding: 2rem; flex: 1; display: flex; flex-direction: column;">
+            <h3 style="font-size: 1.35rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 800;">
+              Tatipaka Diagnostic Centre
+            </h3>
+            <div style="font-size: 0.85rem; color: var(--accent-teal-dark); font-weight: 700; margin-bottom: 1rem;">
+              <i class="fa-solid fa-shield-heart"></i> Comprehensive Diagnostic Hub for Konaseema
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--neutral-600);">
+              <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
+                <i class="fa-solid fa-location-dot" style="color: var(--primary-600); margin-top: 0.25rem;"></i>
+                <div>Main Road, Near Bus Complex, Tatipaka, Dr. B.R. Ambedkar Konaseema – 533249</div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; align-items: center;">
+                <i class="fa-solid fa-clock" style="color: var(--emerald-600);"></i>
+                <div>Mon – Sat: 7:00 AM – 8:30 PM | Sun: 7:00 AM – 1:00 PM</div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; align-items: center;">
+                <i class="fa-solid fa-phone" style="color: var(--primary-600);"></i>
+                <div><a href="tel:+919577334499" style="font-weight: 700; color: var(--primary-900);">+91 95773 34499</a></div>
+              </div>
+            </div>
+
+            <div style="background: var(--neutral-50); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem; font-size: 0.825rem; color: var(--neutral-700);">
+              <div style="font-weight: 700; color: var(--primary-900); margin-bottom: 0.4rem; text-transform: uppercase;">Infrastructure Highlights:</div>
+              <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.35rem;">
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Regional Diagnostic Lifeline for Razole & Konaseema</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> On-site Complete Blood Picture & Urinalysis</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Mobile Phlebotomy Team for River & Island Villages</li>
+                <li><i class="fa-solid fa-check" style="color: var(--emerald-500); margin-right: 0.35rem;"></i> Direct High-Speed Data Sync with LIS Cloud</li>
+              </ul>
+            </div>
+
+            <div style="margin-top: auto; display: flex; gap: 0.75rem;">
+              <a href="tel:+919577334499" class="btn btn-primary btn-sm" style="flex: 1;">
+                <i class="fa-solid fa-phone"></i> Call Centre
+              </a>
+              <a href="https://maps.google.com/?q=Sri+Vijaya+Clinical+Laboratories+Tatipaka" target="_blank" class="btn btn-outline btn-sm" style="flex: 1;">
+                <i class="fa-solid fa-diamond-turn-right"></i> Directions
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Redesigned Home Sample Collection Across All Centres Callout (Requirement 3) -->
+      <div class="home-visit-callout-card">
+        <div class="home-visit-callout-content">
+          <div class="home-visit-callout-icon">
+            <i class="fa-solid fa-house-medical"></i>
+          </div>
+          <div>
+            <h4 style="font-size: 1.25rem; color: var(--primary-900); margin: 0 0 0.35rem 0; font-weight: 800;">Can't Visit Our Diagnostic Centre in Person?</h4>
+            <p style="font-size: 0.925rem; color: var(--neutral-600); margin: 0; line-height: 1.55;">
+              Our certified phlebotomists collect blood & urine samples right at your doorstep across Palakollu, Bhimavaram, Tatipaka and 45+ surrounding mandals with sterile BD vacutainers and cold-chain temperature preservation.
+            </p>
+          </div>
+        </div>
+        <a href="home-collection.html" class="btn btn-accent btn-lg home-visit-callout-btn">
+          <i class="fa-solid fa-calendar-check"></i> <span>Schedule Home Sample Collection</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Founder & Chairman's Note -->
+  <section style="padding: 5.5rem 0; background: var(--white);">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, #F8FAFC 0%, #F0FDF4 100%); border-radius: var(--radius-xl); padding: 3.5rem; box-shadow: var(--shadow-md); border: 1px solid var(--neutral-200);">
+        <div class="responsive-founder-grid" style="align-items: center;">
+          <div style="text-align: center;">
+            <div style="width: 220px; height: 220px; border-radius: 50%; overflow: hidden; margin: 0 auto 1.5rem auto; border: 6px solid var(--white); box-shadow: var(--shadow-lg);">
+              <img src="assets/images/Murali-gari.webp" alt="Ln. Kommula Murali Krishna" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 style="font-size: 1.4rem; color: var(--primary-900); margin-bottom: 0.25rem; font-weight: 800;">Ln. Kommula Murali Krishna</h3>
+            <div style="color: var(--accent-teal-dark); font-weight: 700; font-size: 0.95rem; margin-bottom: 0.75rem;">Managing Director & Founder</div>
+            <div style="display: inline-flex; gap: 0.5rem; font-size: 0.75rem; flex-wrap: wrap; justify-content: center;">
+              <span class="badge badge-primary"><i class="fa-solid fa-award"></i> Lions Club International</span>
+              <span class="badge badge-teal"><i class="fa-solid fa-heart-pulse"></i> Healthcare Visionary</span>
+            </div>
+          </div>
+
+          <div>
+            <span class="section-tag teal"><i class="fa-solid fa-quote-left"></i> Founder's Vision & Note</span>
+            <h2 style="font-size: clamp(1.8rem, 2.5vw, 2.2rem); color: var(--primary-900); margin-bottom: 1.25rem; font-weight: 800;">
+              A Lifelong Mission of Universal Healthcare & Clinical Dignity
+            </h2>
+            <p style="color: var(--neutral-700); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem; font-style: italic;">
+              "Sri Vijaya Clinical Laboratories was founded in 1997 with a simple yet uncompromising conviction: every family in our district deserves medical testing as accurate and dependable as the premier institutes of any metropolitan city, provided with genuine compassion and fair pricing."
+            </p>
+            <p style="color: var(--neutral-600); line-height: 1.7; margin-bottom: 1.25rem;">
+              Over the last two-and-a-half decades, Ln. Kommula Murali Krishna has championed the introduction of automated diagnostic technologies to Palakollu and rural Andhra Pradesh. Alongside clinical operations, he has led hundreds of free community health checkup camps, diabetic screening drives, and charitable medical initiatives under Lions Club International, JCI, and the Walkers Club.
+            </p>
+            <div style="background: var(--white); border-left: 4px solid var(--accent-teal); padding: 1.25rem 1.5rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; box-shadow: var(--shadow-sm);">
+              <strong style="color: var(--primary-900); font-size: 1rem;">Our Permanent Mission:</strong>
+              <p style="color: var(--neutral-700); font-size: 0.925rem; margin-top: 0.35rem; line-height: 1.6;">
+                "To deliver precision diagnostic reports through state-of-the-art laboratory automation, highly qualified pathologists, and stringent quality control, empowering clinicians to make life-saving decisions while keeping healthcare compassionate, accessible, and affordable for every citizen."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Item 13: Clinical Leadership & Renowned Medical Team -->
+  <section id="leadership" style="padding: 5.5rem 0; background: var(--neutral-50); border-top: 1px solid var(--neutral-200);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag emerald"><i class="fa-solid fa-user-doctor"></i> Clinical Leadership</span>
+        <h2 class="section-title">Guided by Renowned Medical Specialists</h2>
+        <p class="section-subtitle">
+          Our diagnostic reports are authorized by certified medical doctors (M.D. Pathology & M.D. Microbiology) ensuring multi-tier verification and clinical dependability.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img-wrap"><img src="assets/images/Murali-gari.webp" alt="Ln. Kommula Murali Krishna" class="team-img"></div>
+          <div class="team-body">
+            <h4 class="team-name">Ln. Kommula Murali Krishna</h4>
+            <div class="team-title">Managing Director & Founder</div>
+            <div class="team-credentials">M.Sc, Healthcare Visionary</div>
+            <p class="team-bio">Founder who pioneered district laboratory automation and community healthcare camps since 1997.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-img-wrap"><img src="assets/images/Dr.prasanthi.webp" alt="Dr. K. Prasanthi" class="team-img"></div>
+          <div class="team-body">
+            <h4 class="team-name">Dr. K. Prasanthi</h4>
+            <div class="team-title">Consultant Pathologist</div>
+            <div class="team-credentials">M.D. (Pathology)</div>
+            <p class="team-bio">Leads laboratory quality assurance, histopathology, peripheral blood morphology, and multi-tier clinical report verification.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-img-wrap"><img src="assets/images/Team-.png" alt="Dr. L. Rajendra Prasad" class="team-img"></div>
+          <div class="team-body">
+            <h4 class="team-name">Dr. L. Rajendra Prasad</h4>
+            <div class="team-title">Consultant Microbiologist</div>
+            <div class="team-credentials">M.D. (Microbiology)</div>
+            <p class="team-bio">Supervises automated blood cultures, infectious disease serology, antimicrobial resistance surveillance, and molecular PCR testing.</p>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-img-wrap"><img src="assets/images/laksjmi.jpg" alt="Ln. Kommula Srilakshmi" class="team-img"></div>
+          <div class="team-body">
+            <h4 class="team-name">Ln. Kommula Srilakshmi</h4>
+            <div class="team-title">Executive Administrator</div>
+            <div class="team-credentials">Operations & Patient Care</div>
+            <p class="team-bio">Coordinates operational excellence across all diagnostic centres, patient assistance desks, and phlebotomy logistics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dedicated Laboratory Achievements & Recognitions Section (Requirement 7) -->
+  <section class="achievements-section" id="achievementsSection" style="padding: 5.5rem 0; background: var(--neutral-50); border-top: 1px solid var(--neutral-200);">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag amber"><i class="fa-solid fa-trophy"></i> Proven Accomplishments</span>
+        <h2 class="section-title">Our Accreditations, Milestones & Clinical Recognitions</h2>
+        <p class="section-subtitle">
+          Over a quarter-century of clinical diagnostic milestones, recognized by premier medical accreditation bodies, international quality schemes, and the Godavari community.
+        </p>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-img-wrap" style="display: flex; align-items: center; justify-content: center; background: radial-gradient(circle, #0F4C81 0%, #0B2545 100%);">
+            <img src="assets/images/25_year_logo-1024x974.png" alt="25 Years Silver Jubilee" style="width: auto; height: 80%; object-fit: contain;">
+            <span class="achievement-year-badge"><i class="fa-solid fa-calendar-check"></i> 1997 – 2026</span>
+          </div>
+          <div class="achievement-body">
+            <span class="achievement-tag"><i class="fa-solid fa-award"></i> Milestone Excellence</span>
+            <h3 class="achievement-title">Silver Jubilee of Diagnostic Leadership</h3>
+            <p class="achievement-desc">
+              Completed 25+ years of uninterrupted diagnostic care in Palakollu, Bhimavaram, and Tatipaka. Trusted by over 10,000+ families and 200+ consulting physicians across West Godavari.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-img-wrap">
+            <img src="assets/images/DSC4658-768x512.jpg" alt="Automated 5-Part Hematology Analyzers">
+            <span class="achievement-year-badge"><i class="fa-solid fa-microchip"></i> Technology Pioneer</span>
+          </div>
+          <div class="achievement-body">
+            <span class="achievement-tag"><i class="fa-solid fa-robot"></i> Automation Milestone</span>
+            <h3 class="achievement-title">District's First Fully Automated Lab</h3>
+            <p class="achievement-desc">
+              Pioneered bidirectional robotic clinical chemistry and 5-part differential hematology cell counters in the district, reducing turnaround times from days to 3-4 hours with zero manual error.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-img-wrap">
+            <img src="assets/images/DSC4694-768x512.jpg" alt="NABL & ISO Quality Standards">
+            <span class="achievement-year-badge"><i class="fa-solid fa-certificate"></i> Certified Quality</span>
+          </div>
+          <div class="achievement-body">
+            <span class="achievement-tag"><i class="fa-solid fa-shield-halved"></i> Accreditation</span>
+            <h3 class="achievement-title">NABL Compliant & ISO 9001:2015</h3>
+            <p class="achievement-desc">
+              Operating under strict National Accreditation Board for Testing and Calibration Laboratories (NABL) guidelines and ISO 9001:2015 certified standard operating procedures for complete clinical precision.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-img-wrap">
+            <img src="assets/images/DSC4675-768x512.jpg" alt="Chemiluminescence and EQAS testing">
+            <span class="achievement-year-badge"><i class="fa-solid fa-circle-check"></i> 100% Quality Score</span>
+          </div>
+          <div class="achievement-body">
+            <span class="achievement-tag"><i class="fa-solid fa-vial-circle-check"></i> Quality Assurance</span>
+            <h3 class="achievement-title">CMC Vellore & Bio-Rad EQAS Distinction</h3>
+            <p class="achievement-desc">
+              Continuous participation in external quality assurance programs from Christian Medical College (CMC) Vellore and Bio-Rad Laboratories USA, consistently achieving top-tier analytical accuracy ratings.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-img-wrap">
+            <img src="assets/images/DSC4607-scaled.jpg" alt="Palakollu Reference Laboratory Team">
+            <span class="achievement-year-badge"><i class="fa-solid fa-users"></i> Historic Milestone</span>
+          </div>
+          <div class="achievement-body">
+            <span class="achievement-tag"><i class="fa-solid fa-chart-line"></i> Scale & Trust</span>
+            <h3 class="achievement-title">10,000,000+ Accurate Investigations</h3>
+            <p class="achievement-desc">
+              Achieved the landmark of processing over 10 million diagnostic investigations with digital barcode tracking and long-term digital reporting archiving for lifetime health comparisons.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-img-wrap">
+            <img src="assets/images/Murali-gari.webp" alt="Ln. Kommula Murali Krishna" style="object-position: center 20%;">
+            <span class="achievement-year-badge"><i class="fa-solid fa-hand-holding-heart"></i> Community Honors</span>
+          </div>
+          <div class="achievement-body">
+            <span class="achievement-tag"><i class="fa-solid fa-heart-pulse"></i> Leadership Award</span>
+            <h3 class="achievement-title">Lions Healthcare Leadership Honor</h3>
+            <p class="achievement-desc">
+              Founder Ln. Kommula Murali Krishna recognized with Lions Club International Humanitarian awards for conducting hundreds of free rural health screening camps, subsidized diabetic checks, and pandemic frontline services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Quality Assurance Framework & Protocols (IQC / EQAS / Barcoding) -->
+  <section style="padding: 5.5rem 0; background: var(--white);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag teal"><i class="fa-solid fa-certificate"></i> Standards of Clinical Excellence</span>
+        <h2 class="section-title">Our Rigorous Quality Assurance Framework</h2>
+        <p class="section-subtitle">
+          How Sri Vijaya Clinical Laboratories guarantees that every single parameter on your report is clinically valid, reproducible, and accurate.
+        </p>
+      </div>
+
+      <div class="responsive-grid-3">
+        
+        <div style="background: var(--neutral-50); border-radius: var(--radius-xl); padding: 2.25rem 2rem; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <div style="width: 56px; height: 56px; border-radius: var(--radius-md); background: var(--primary-50); color: var(--primary-600); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1.5rem;">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h4 style="font-size: 1.25rem; color: var(--primary-900); margin-bottom: 0.75rem; font-weight: 700;">Daily Internal Quality Control (IQC)</h4>
+          <p style="font-size: 0.925rem; color: var(--neutral-600); line-height: 1.65;">
+            Every morning prior to patient sample testing, two to three levels of lyophilized commercial calibrators and controls are run across all automated analyzers. Results are plotted on Levey-Jennings charts with Westgard multi-rules evaluation to verify calibration integrity.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border-radius: var(--radius-xl); padding: 2.25rem 2rem; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <div style="width: 56px; height: 56px; border-radius: var(--radius-md); background: var(--accent-teal-light); color: var(--accent-teal-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1.5rem;">
+            <i class="fa-solid fa-earth-americas"></i>
+          </div>
+          <h4 style="font-size: 1.25rem; color: var(--primary-900); margin-bottom: 0.75rem; font-weight: 700;">External EQAS Proficiency</h4>
+          <p style="font-size: 0.925rem; color: var(--neutral-600); line-height: 1.65;">
+            Sri Vijaya Clinical Laboratories actively participates in prestigious External Quality Assurance Schemes (EQAS) through CMC Vellore, AIIMS, and Bio-Rad Laboratories. Blind sample surveys confirm our analytical accuracy matches top national reference laboratories.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border-radius: var(--radius-xl); padding: 2.25rem 2rem; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <div style="width: 56px; height: 56px; border-radius: var(--radius-md); background: var(--emerald-50); color: var(--emerald-600); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1.5rem;">
+            <i class="fa-solid fa-barcode"></i>
+          </div>
+          <h4 style="font-size: 1.25rem; color: var(--primary-900); margin-bottom: 0.75rem; font-weight: 700;">Zero-Manual-Transfer Barcoding</h4>
+          <p style="font-size: 0.925rem; color: var(--neutral-600); line-height: 1.65;">
+            All blood and specimen tubes are drawn in vacuum-sealed BD Vacutainers with unique patient barcoding at collection time. Automated analyzers read barcoded orders directly via bidirectional LIS interface, eliminating sample mix-ups and transcription errors.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (Item 7 styling, all 3 buttons visible) -->
+  <section class="cta-banner-section">
+    <div class="container">
+      <div class="cta-banner-inner">
+        <span class="cta-banner-tag">
+          <i class="fa-solid fa-shield-heart"></i> Your Health Check Starts Here
+        </span>
+        <h2 class="cta-banner-title">
+          Ready to Experience Healthcare You Can Rely On?
+        </h2>
+        <p class="cta-banner-subtitle">
+          Visit any of our diagnostic centres in Palakollu, Bhimavaram, or Tatipaka, or schedule a free home sample collection slot at your convenience.
+        </p>
+        <div class="cta-banner-btn-group">
+          <a href="tel:+919577334499" class="btn btn-white btn-lg">
+            <i class="fa-solid fa-phone"></i> Call Hotline: +91 95773 34499
+          </a>
+          <a href="home-collection.html" class="btn btn-accent btn-lg">
+            <i class="fa-solid fa-house-medical"></i> Book Home Sample Collection
+          </a>
+          <a href="tests.html" class="btn btn-outline-white btn-lg">
+            <i class="fa-solid fa-flask-vial"></i> Explore 86 Lab Tests
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide-Over Booking Cart Drawer -->
+  <div id="cartBackdrop" class="cart-backdrop" onclick="VijayaCart.closeDrawer()">
+    <div class="cart-drawer" onclick="event.stopPropagation()">
+      <div class="cart-header">
+        <div class="cart-title">
+          <i class="fa-solid fa-clipboard-list" style="color: var(--primary-600);"></i>
+          <span>Your Booking List</span>
+        </div>
+        <button class="cart-close-btn" onclick="VijayaCart.closeDrawer()" aria-label="Close cart">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div id="cartDrawerBody" class="cart-body"></div>
+
+      <div id="cartDrawerFooter" class="cart-footer">
+        <div class="cart-summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotalDisplay">₹0</span>
+        </div>
+        <div class="cart-summary-line" style="color: var(--emerald-600);">
+          <span>Package / Test Savings</span>
+          <span id="cartSavingsDisplay">₹0</span>
+        </div>
+        <div class="cart-summary-line">
+          <span>Home Sample Collection</span>
+          <span style="color: var(--emerald-600); font-weight: 700;">FREE (Orders above ₹500)</span>
+        </div>
+        <div class="cart-total-line">
+          <span>Estimated Total:</span>
+          <span id="cartTotalDisplay">₹0</span>
+        </div>
+
+        <button class="btn btn-accent btn-lg" style="width: 100%;" onclick="openBookingCheckoutWizard()">
+          <i class="fa-solid fa-calendar-check"></i> Proceed to Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Checkout Wizard Modal (With WhatsApp Integration) -->
+  <div id="checkoutModal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-clipboard-check" style="color: var(--accent-teal); margin-right: 0.5rem;"></i> Schedule Your Diagnostic Appointment</h3>
+        <button class="modal-close-btn" onclick="closeAllModals()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="checkoutWizardContent">
+        <div style="margin-bottom: 1.5rem; background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-md); padding: 1rem;">
+          <div style="font-size: 0.85rem; color: var(--neutral-500); margin-bottom: 0.5rem; text-transform: uppercase; font-weight: 700;">Selected Tests & Packages:</div>
+          <div id="checkoutItemsReview"></div>
+          <div style="display: flex; justify-content: space-between; margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px dashed var(--neutral-300);">
+            <strong>Estimated Total:</strong>
+            <strong id="checkoutTotalAmount" style="color: var(--primary-900); font-size: 1.15rem;">₹0</strong>
+          </div>
+        </div>
+
+        <form id="bookingForm" onsubmit="submitBookingForm(event)">
+          <div class="form-group">
+            <label class="form-label">Patient Full Name *</label>
+            <input type="text" name="patientName" class="form-control" placeholder="Enter patient's full name" required>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp Number *</label>
+              <input type="tel" name="patientPhone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Patient Age & Gender *</label>
+              <input type="text" name="patientAge" class="form-control" placeholder="e.g. 45 / Male" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Collection Method *</label>
+            <div class="responsive-form-row">
+              <label style="border: 1.5px solid var(--primary-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="home" checked>
+                <span><strong>Home Sample Collection</strong> (Doorstep)</span>
+              </label>
+              <label style="border: 1.5px solid var(--neutral-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="walkin">
+                <span><strong>Walk-in Lab Visit</strong> (Centre)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Preferred Date *</label>
+              <input type="date" name="bookingDate" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Time Slot *</label>
+              <select name="bookingSlot" class="form-control" required>
+                <option value="06:00 AM - 08:00 AM (Early Fasting)">06:00 AM - 08:00 AM (Fasting)</option>
+                <option value="08:00 AM - 10:00 AM (Morning)">08:00 AM - 10:00 AM (Morning)</option>
+                <option value="10:00 AM - 12:00 PM (Mid-day)">10:00 AM - 12:00 PM (Mid-day)</option>
+                <option value="02:00 PM - 05:00 PM (Afternoon)">02:00 PM - 05:00 PM (Afternoon)</option>
+                <option value="05:00 PM - 08:00 PM (Evening)">05:00 PM - 08:00 PM (Evening)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Home Address & PIN code (If Home Collection)</label>
+            <textarea name="patientAddress" class="form-control" rows="2" placeholder="House/Flat No, Landmark, Town/Village and 6-digit PIN code"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+            <i class="fa-solid fa-lock"></i> Confirm & Book Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div id="searchModal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Search Tests & Health Packages</h3>
+        <button class="modal-close-btn" onclick="closeAllModals()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="search-modal-input-wrap">
+          <i class="fa-solid fa-magnifying-glass search-modal-icon"></i>
+          <input type="text" id="searchModalInput" class="search-modal-input" placeholder="Type test name, organ, or package...">
+        </div>
+        <div id="searchResultsList" class="search-results-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item 11: Consistent Standard Footer (Identical to index.html, Reports removed) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="footer-logo">
+          </div>
+          <p style="font-size: 0.875rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--neutral-400);">
+            Sri Vijaya Clinical Laboratories has 25+ years of proven diagnostic excellence in Palakollu, Bhimavaram, and Tatipaka. First automated clinical laboratory in the district providing precision testing, digital reporting, and doorstep home sample collection.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-teal"><i class="fa-solid fa-shield-check"></i> NABL Compliant</span>
+            <span class="badge badge-primary"><i class="fa-solid fa-certificate"></i> ISO 9001:2015</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="packages.html">Health Packages</a></li>
+            <li><a href="tests.html">All Lab Tests</a></li>
+            <li><a href="home-collection.html">Home Collection</a></li>
+            <li><a href="about.html#centers">Diagnostic Centres</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Test Categories</h4>
+          <ul class="footer-links-list">
+            <li><a href="tests.html?cat=hematology">Hematology & CBC</a></li>
+            <li><a href="tests.html?cat=biochemistry">Biochemistry & Sugar</a></li>
+            <li><a href="tests.html?cat=hormones">Thyroid & Vitamins</a></li>
+            <li><a href="tests.html?cat=lipid">Lipid & Heart Profile</a></li>
+            <li><a href="tests.html?cat=liver">Liver Function (LFT)</a></li>
+            <li><a href="tests.html?cat=molecular">Molecular PCR</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact & Help</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Emergency & Booking Hotline</strong><br>
+              <a href="tel:+919577334499" style="color: var(--white); font-weight: 700;">+91 95773 34499</a> / <a href="tel:+917875712345" style="color: var(--white);">78757 12345</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email Support</strong><br>
+              <a href="mailto:info@vijayalabs.com" style="color: var(--neutral-300);">info@vijayalabs.com</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Palakollu Central Reference Lab</strong><br>
+              Opp. Head Post Office, Journalist Colony, Palakollu – 534260
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 1997 - 2026 Sri Vijaya Clinical Laboratories. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem; font-size: 0.8125rem;">
+          <a href="about.html">About Sri Vijaya Labs</a>
+          <a href="about.html#centers">Our Centres</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Mobile Bottom Bar (Standardized Navigation) -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bar-actions">
+      <a href="index.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+      <a href="tests.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-flask-vial"></i>
+        <span>Tests</span>
+      </a>
+      <a href="packages.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-shield-heart"></i>
+        <span>Packages</span>
+      </a>
+      <a href="home-collection.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-house-medical"></i>
+        <span>Home Visit</span>
+      </a>
+      <a href="https://wa.me/919577334499?text=Hello%20Vijaya%20Labs" target="_blank" class="btn btn-whatsapp btn-sm" style="width: 44px; height: 44px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center;">
+        <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/tests-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

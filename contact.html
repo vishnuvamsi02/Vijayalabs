@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us & Diagnostic Enquiries | Sri Vijaya Clinical Laboratories</title>
+  <meta name="description" content="Get in touch with Sri Vijaya Clinical Laboratories. Contact numbers, WhatsApp instant booking (+91 95773 34499), branch addresses in Palakollu, Bhimavaram, Tatipaka and doctor referrals.">
+  <link rel="icon" type="image/png" href="assets/images/cropped-logo-png.png">
+  
+  <!-- Font Awesome 6 Pro / Free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Modern Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Reports removed) -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge"><i class="fa-solid fa-headset"></i> Dedicated Patient Assistance</span>
+        <span class="topbar-link"><i class="fa-solid fa-clock"></i> 24/7 STAT Lab Services Available</span>
+        <span class="topbar-link"><i class="fa-solid fa-location-dot"></i> Palakollu · Bhimavaram · Tatipaka</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+919577334499" class="topbar-link"><i class="fa-solid fa-phone"></i> +91 95773 34499</a>
+        <a href="home-collection.html" class="topbar-link" style="color: var(--accent-teal); font-weight: 700;">
+          <i class="fa-solid fa-house-medical"></i> Free Home Collection &gt; ₹500
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header (Exact Ordered Nav: 1. Home, 2. About Us, 3. Health Packages [with Lab Tests dropdown], 4. Home Collection, 5. Contact) -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo-group">
+          <a href="index.html" style="display: flex; align-items: center; gap: 0.75rem;">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="site-logo">
+            <img src="assets/images/25_year_logo-1024x974.png" alt="25 Years Excellence" class="silver-jubilee-badge">
+          </a>
+        </div>
+
+        <nav class="nav-menu">
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="about.html" class="nav-link">About Us</a></div>
+          
+          <!-- Dropdown: Health Packages & Lab Tests -->
+          <div class="nav-item has-dropdown">
+            <a href="packages.html" class="nav-link">
+              Health Packages <i class="fa-solid fa-chevron-down nav-dropdown-arrow"></i>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="packages.html" class="dropdown-item">
+                <div class="dropdown-icon teal"><i class="fa-solid fa-shield-heart"></i></div>
+                <div>
+                  <div class="dropdown-title">All Health Packages</div>
+                  <div class="dropdown-desc">Comprehensive preventive full-body health checks</div>
+                </div>
+              </a>
+              <a href="tests.html" class="dropdown-item">
+                <div class="dropdown-icon blue"><i class="fa-solid fa-flask-vial"></i></div>
+                <div>
+                  <div class="dropdown-title">Diagnostic Lab Tests Directory</div>
+                  <div class="dropdown-desc">86 individual blood, urine, & molecular tests</div>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown-quick-links">
+                <span class="dropdown-quick-heading">Popular Categories:</span>
+                <div class="dropdown-chips">
+                  <a href="tests.html?cat=hematology">Hematology</a>
+                  <a href="tests.html?cat=biochemistry">Bio-Chemistry</a>
+                  <a href="tests.html?cat=hormones">Thyroid & Vitamins</a>
+                  <a href="tests.html?cat=lipid">Lipid & Heart</a>
+                  <a href="tests.html?cat=liver">Liver (LFT)</a>
+                  <a href="tests.html?cat=molecular">Molecular PCR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item"><a href="home-collection.html" class="nav-link">Home Collection</a></div>
+          <div class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></div>
+          <div class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></div>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="search-trigger-btn" aria-label="Search tests" onclick="openSearchModal()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Search tests...</span>
+          </button>
+
+          <button class="btn btn-primary btn-sm" onclick="openBookingCheckoutWizard()">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book Test</span>
+          </button>
+
+          <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <section style="background: radial-gradient(circle at 80% 25%, rgba(0, 168, 150, 0.18) 0%, transparent 60%), linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 100%); color: var(--white); padding: 4.5rem 0 3.75rem 0;">
+    <div class="container text-center" style="text-align: center;">
+      <span class="badge badge-teal" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-envelope-open-text"></i> Prompt Medical Support</span>
+      <h1 style="color: var(--white); font-size: clamp(2.2rem, 3.8vw, 3rem); margin-bottom: 0.75rem; font-weight: 800;">
+        Contact Sri Vijaya Clinical Laboratories
+      </h1>
+      <p style="color: var(--neutral-300); max-width: 680px; margin: 0 auto; font-size: 1.1rem; line-height: 1.6;">
+        Have questions regarding a test, want to book home sample collection, or inquire about doctor referrals? Our customer care coordinators and laboratory technicians are ready to assist you.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Form & Direct Connect Grid (Requirement 5) -->
+  <section style="padding: 4.5rem 0; background: var(--neutral-50);">
+    <div class="container">
+      <div class="responsive-split-hero">
+        
+        <!-- Contact Form Card -->
+        <div class="contact-form-card">
+          <div style="display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--accent-teal-dark); background: var(--accent-teal-light); padding: 0.25rem 0.7rem; border-radius: var(--radius-full); margin-bottom: 0.75rem;">
+            <i class="fa-solid fa-paper-plane"></i> Quick Medical Assistance
+          </div>
+          <h2 style="font-size: clamp(1.5rem, 2.5vw, 1.85rem); color: var(--primary-900); margin-bottom: 0.4rem; font-weight: 800;">Send Us an Inquiry</h2>
+          <p style="font-size: 0.925rem; color: var(--neutral-600); margin-bottom: 1.75rem; line-height: 1.55;">
+            Fill out the form below and our medical coordinators will call or WhatsApp you within 15 minutes with exact pricing and appointment details.
+          </p>
+
+          <form id="contactInquiryForm" onsubmit="handleContactEnquiry(event)">
+            <div class="responsive-form-row">
+              <div class="form-group">
+                <label class="form-label" for="contactName">Your Full Name *</label>
+                <input type="text" id="contactName" class="form-control" placeholder="e.g. S. Venkat Rao" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contactPhone">Phone / WhatsApp Number *</label>
+                <input type="tel" id="contactPhone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required autocomplete="tel">
+              </div>
+            </div>
+
+            <div class="responsive-form-row">
+              <div class="form-group">
+                <label class="form-label" for="contactEmail">Email Address (Optional)</label>
+                <input type="email" id="contactEmail" class="form-control" placeholder="name@example.com" autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contactCategory">Inquiry Purpose *</label>
+                <select id="contactCategory" class="form-control" required>
+                  <option value="Home Sample Collection">Home Sample Collection</option>
+                  <option value="Test Pricing & Information">Test Pricing & Information</option>
+                  <option value="Health Packages Guidance">Health Packages Guidance</option>
+                  <option value="Doctor / Hospital Tie-up">Doctor / Hospital Tie-up</option>
+                  <option value="Corporate Health Screening">Corporate Health Screening</option>
+                  <option value="General Feedback">General Feedback</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contactMessage">Your Message or Tests Required *</label>
+              <textarea id="contactMessage" class="form-control" rows="4" placeholder="Mention doctor prescription, requested tests, preferred date/time slot, or questions..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-accent btn-lg contact-btn-submit">
+              <i class="fa-solid fa-paper-plane"></i> <span>Send Inquiry via WhatsApp & SMS</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Direct Connect Information Cards -->
+        <div>
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            
+            <!-- Hotline Card -->
+            <div class="contact-info-card">
+              <div style="display: flex; align-items: flex-start; gap: 0.85rem; margin-bottom: 0.85rem;">
+                <div style="width: 46px; height: 46px; border-radius: var(--radius-md); background: #EBF4FF; color: #0F4C81; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 1.15rem; color: var(--primary-900); margin: 0 0 0.2rem 0; font-weight: 700;">24/7 STAT & Booking Hotline</h4>
+                  <div style="font-size: 0.8rem; color: var(--neutral-500);">Direct coordinator connection</div>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--neutral-600); margin-bottom: 0.75rem; line-height: 1.5;">
+                Speak with our phlebotomy coordinator for immediate sample dispatch:
+              </p>
+              <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                <a href="tel:+919577334499" class="btn btn-outline-primary btn-sm" style="justify-content: flex-start; font-weight: 700;">
+                  <i class="fa-solid fa-phone"></i> +91 95773 34499 (Primary Hotline)
+                </a>
+                <a href="tel:+917875712345" class="btn btn-outline btn-sm" style="justify-content: flex-start;">
+                  <i class="fa-solid fa-phone"></i> +91 78757 12345 (Secondary)
+                </a>
+                <a href="tel:08814224499" class="btn btn-outline btn-sm" style="justify-content: flex-start;">
+                  <i class="fa-solid fa-phone"></i> 08814 224499 (Landline)
+                </a>
+              </div>
+            </div>
+
+            <!-- WhatsApp Instant Chat Card -->
+            <div class="contact-info-card">
+              <div style="display: flex; align-items: flex-start; gap: 0.85rem; margin-bottom: 0.85rem;">
+                <div style="width: 46px; height: 46px; border-radius: var(--radius-md); background: #E8FBF0; color: #25D366; display: flex; align-items: center; justify-content: center; font-size: 1.45rem; flex-shrink: 0;">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 1.15rem; color: var(--primary-900); margin: 0 0 0.2rem 0; font-weight: 700;">WhatsApp Direct Help</h4>
+                  <div style="font-size: 0.8rem; color: var(--neutral-500);">Instant quotes & prescription review</div>
+                </div>
+              </div>
+              <p style="font-size: 0.875rem; color: var(--neutral-600); margin-bottom: 0.85rem; line-height: 1.5;">
+                Snap a photo of your doctor's slip and send it directly for verified test advice and bookings:
+              </p>
+              <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories,%20I%20have%20an%20inquiry." target="_blank" class="btn btn-whatsapp contact-btn-submit">
+                <i class="fa-brands fa-whatsapp"></i> <span>Chat on WhatsApp (+91 95773 34499)</span>
+              </a>
+            </div>
+
+            <!-- Email & Physical Reference Desk Card -->
+            <div class="contact-info-card">
+              <div style="display: flex; align-items: flex-start; gap: 0.85rem; margin-bottom: 0.85rem;">
+                <div style="width: 46px; height: 46px; border-radius: var(--radius-md); background: #E6FFFA; color: #00A896; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <h4 style="font-size: 1.15rem; color: var(--primary-900); margin: 0 0 0.2rem 0; font-weight: 700;">Official Email Support</h4>
+                  <div style="font-size: 0.8rem; color: var(--neutral-500);">For corporate & doctor referrals</div>
+                </div>
+              </div>
+              <div style="font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem;">
+                <a href="mailto:info@vijayalabs.com" style="color: var(--primary-700);"><i class="fa-solid fa-at" style="margin-right: 0.35rem;"></i> info@vijayalabs.com</a>
+              </div>
+              <div style="font-size: 0.85rem; color: var(--neutral-600); line-height: 1.5;">
+                <strong>Central Laboratory:</strong> Opp. Head Post Office, Journalist Colony, Palakollu – 534260.
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Diagnostic Centre Locations Quick Directory -->
+  <section style="padding: 5rem 0; background: var(--white); border-top: 1px solid var(--neutral-200);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag teal"><i class="fa-solid fa-hospital"></i> Our Centres</span>
+        <h2 class="section-title">Visit Our Diagnostic Centres in Person</h2>
+        <p class="section-subtitle">
+          Walk in to any of our fully equipped diagnostic centres or sample collection hubs across West Godavari and Konaseema.
+        </p>
+      </div>
+
+      <div class="branches-grid">
+        
+        <div style="background: var(--neutral-50); border-radius: var(--radius-xl); padding: 2rem; border: 1px solid var(--neutral-200);">
+          <span class="badge badge-emerald" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-bolt"></i> 24/7 STAT Lab</span>
+          <h4 style="font-size: 1.25rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 800;">Palakollu Central Lab</h4>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.6; margin-bottom: 1rem;">
+            Opp. Head Post Office, Journalist Colony, Palakollu, West Godavari – 534260
+          </p>
+          <div style="font-size: 0.875rem; color: var(--neutral-700); margin-bottom: 1.25rem;">
+            <strong>Hours:</strong> Open 24 Hours / 7 Days<br>
+            <strong>Phone:</strong> +91 95773 34499 / 08814 224499
+          </div>
+          <a href="about.html#centers" class="btn btn-outline-primary btn-sm" style="width: 100%;">View Centre Details</a>
+        </div>
+
+        <div style="background: var(--neutral-50); border-radius: var(--radius-xl); padding: 2rem; border: 1px solid var(--neutral-200);">
+          <span class="badge badge-teal" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-dna"></i> Regional Centre</span>
+          <h4 style="font-size: 1.25rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 800;">Bhimavaram Regional Branch</h4>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.6; margin-bottom: 1rem;">
+            Near Someswara Swamy Temple Road / Prakasham Chowk, Bhimavaram – 534201
+          </p>
+          <div style="font-size: 0.875rem; color: var(--neutral-700); margin-bottom: 1.25rem;">
+            <strong>Hours:</strong> Mon–Sat: 6:30 AM–9:00 PM | Sun: 7:00 AM–2:00 PM<br>
+            <strong>Phone:</strong> +91 78757 12345
+          </div>
+          <a href="about.html#centers" class="btn btn-outline-primary btn-sm" style="width: 100%;">View Centre Details</a>
+        </div>
+
+        <div style="background: var(--neutral-50); border-radius: var(--radius-xl); padding: 2rem; border: 1px solid var(--neutral-200);">
+          <span class="badge badge-amber" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-map-pin"></i> Konaseema Hub</span>
+          <h4 style="font-size: 1.25rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 800;">Tatipaka Diagnostic Centre</h4>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.6; margin-bottom: 1rem;">
+            Main Road, Near Bus Complex, Tatipaka, Dr. B.R. Ambedkar Konaseema – 533249
+          </p>
+          <div style="font-size: 0.875rem; color: var(--neutral-700); margin-bottom: 1.25rem;">
+            <strong>Hours:</strong> Mon–Sat: 7:00 AM–8:30 PM | Sun: 7:00 AM–1:00 PM<br>
+            <strong>Phone:</strong> +91 95773 34499
+          </div>
+          <a href="about.html#centers" class="btn btn-outline-primary btn-sm" style="width: 100%;">View Centre Details</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Item 11: Consistent Standard Footer (Identical to index.html, Reports removed) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="footer-logo">
+          </div>
+          <p style="font-size: 0.875rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--neutral-400);">
+            Sri Vijaya Clinical Laboratories has 25+ years of proven diagnostic excellence in Palakollu, Bhimavaram, and Tatipaka. First automated clinical laboratory in the district providing precision testing, digital reporting, and doorstep home sample collection.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-teal"><i class="fa-solid fa-shield-check"></i> NABL Compliant</span>
+            <span class="badge badge-primary"><i class="fa-solid fa-certificate"></i> ISO 9001:2015</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="packages.html">Health Packages</a></li>
+            <li><a href="tests.html">All Lab Tests</a></li>
+            <li><a href="home-collection.html">Home Collection</a></li>
+            <li><a href="about.html#centers">Diagnostic Centres</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Test Categories</h4>
+          <ul class="footer-links-list">
+            <li><a href="tests.html?cat=hematology">Hematology & CBC</a></li>
+            <li><a href="tests.html?cat=biochemistry">Biochemistry & Sugar</a></li>
+            <li><a href="tests.html?cat=hormones">Thyroid & Vitamins</a></li>
+            <li><a href="tests.html?cat=lipid">Lipid & Heart Profile</a></li>
+            <li><a href="tests.html?cat=liver">Liver Function (LFT)</a></li>
+            <li><a href="tests.html?cat=molecular">Molecular PCR</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact & Help</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Emergency & Booking Hotline</strong><br>
+              <a href="tel:+919577334499" style="color: var(--white); font-weight: 700;">+91 95773 34499</a> / <a href="tel:+917875712345" style="color: var(--white);">78757 12345</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email Support</strong><br>
+              <a href="mailto:info@vijayalabs.com" style="color: var(--neutral-300);">info@vijayalabs.com</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Palakollu Central Reference Lab</strong><br>
+              Opp. Head Post Office, Journalist Colony, Palakollu – 534260
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 1997 - 2026 Sri Vijaya Clinical Laboratories. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem; font-size: 0.8125rem;">
+          <a href="about.html">About Sri Vijaya Labs</a>
+          <a href="about.html#centers">Our Centres</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Over Booking Cart Drawer -->
+  <div id="cartBackdrop" class="cart-backdrop" onclick="VijayaCart.closeDrawer()">
+    <div class="cart-drawer" onclick="event.stopPropagation()">
+      <div class="cart-header">
+        <div class="cart-title">
+          <i class="fa-solid fa-clipboard-list" style="color: var(--primary-600);"></i>
+          <span>Your Booking List</span>
+        </div>
+        <button class="cart-close-btn" onclick="VijayaCart.closeDrawer()" aria-label="Close cart">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div id="cartDrawerBody" class="cart-body"></div>
+
+      <div id="cartDrawerFooter" class="cart-footer">
+        <div class="cart-summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotalDisplay">₹0</span>
+        </div>
+        <div class="cart-summary-line" style="color: var(--emerald-600);">
+          <span>Package / Test Savings</span>
+          <span id="cartSavingsDisplay">₹0</span>
+        </div>
+        <div class="cart-summary-line">
+          <span>Home Sample Collection</span>
+          <span style="color: var(--emerald-600); font-weight: 700;">FREE (Orders above ₹500)</span>
+        </div>
+        <div class="cart-total-line">
+          <span>Estimated Total:</span>
+          <span id="cartTotalDisplay">₹0</span>
+        </div>
+
+        <button class="btn btn-accent btn-lg" style="width: 100%;" onclick="openBookingCheckoutWizard()">
+          <i class="fa-solid fa-calendar-check"></i> Proceed to Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Checkout Wizard Modal (With WhatsApp Integration) -->
+  <div id="checkoutModal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-clipboard-check" style="color: var(--accent-teal); margin-right: 0.5rem;"></i> Schedule Your Diagnostic Appointment</h3>
+        <button class="modal-close-btn" onclick="closeAllModals()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="checkoutWizardContent">
+        <div style="margin-bottom: 1.5rem; background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-md); padding: 1rem;">
+          <div style="font-size: 0.85rem; color: var(--neutral-500); margin-bottom: 0.5rem; text-transform: uppercase; font-weight: 700;">Selected Tests & Packages:</div>
+          <div id="checkoutItemsReview"></div>
+          <div style="display: flex; justify-content: space-between; margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px dashed var(--neutral-300);">
+            <strong>Estimated Total:</strong>
+            <strong id="checkoutTotalAmount" style="color: var(--primary-900); font-size: 1.15rem;">₹0</strong>
+          </div>
+        </div>
+
+        <form id="bookingForm" onsubmit="submitBookingForm(event)">
+          <div class="form-group">
+            <label class="form-label">Patient Full Name *</label>
+            <input type="text" name="patientName" class="form-control" placeholder="Enter patient's full name" required>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp Number *</label>
+              <input type="tel" name="patientPhone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Patient Age & Gender *</label>
+              <input type="text" name="patientAge" class="form-control" placeholder="e.g. 45 / Male" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Collection Method *</label>
+            <div class="responsive-form-row">
+              <label style="border: 1.5px solid var(--primary-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="home" checked>
+                <span><strong>Home Sample Collection</strong> (Doorstep)</span>
+              </label>
+              <label style="border: 1.5px solid var(--neutral-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="walkin">
+                <span><strong>Walk-in Lab Visit</strong> (Centre)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Preferred Date *</label>
+              <input type="date" name="bookingDate" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Time Slot *</label>
+              <select name="bookingSlot" class="form-control" required>
+                <option value="06:00 AM - 08:00 AM (Early Fasting)">06:00 AM - 08:00 AM (Fasting)</option>
+                <option value="08:00 AM - 10:00 AM (Morning)">08:00 AM - 10:00 AM (Morning)</option>
+                <option value="10:00 AM - 12:00 PM (Mid-day)">10:00 AM - 12:00 PM (Mid-day)</option>
+                <option value="02:00 PM - 05:00 PM (Afternoon)">02:00 PM - 05:00 PM (Afternoon)</option>
+                <option value="05:00 PM - 08:00 PM (Evening)">05:00 PM - 08:00 PM (Evening)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Home Address & PIN code (If Home Collection)</label>
+            <textarea name="patientAddress" class="form-control" rows="2" placeholder="House/Flat No, Landmark, Town/Village and 6-digit PIN code"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+            <i class="fa-solid fa-lock"></i> Confirm & Book Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories,%20I%20have%20an%20enquiry." target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Mobile Bottom Bar (Standardized Navigation) -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bar-actions">
+      <a href="index.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+      <a href="tests.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-flask-vial"></i>
+        <span>Tests</span>
+      </a>
+      <a href="packages.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-shield-heart"></i>
+        <span>Packages</span>
+      </a>
+      <a href="home-collection.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-house-medical"></i>
+        <span>Home Visit</span>
+      </a>
+      <a href="https://wa.me/919577334499?text=Hello%20Vijaya%20Labs" target="_blank" class="btn btn-whatsapp btn-sm" style="width: 44px; height: 44px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center;">
+        <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/tests-data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function handleContactEnquiry(e) {
+      e.preventDefault();
+      const name = document.getElementById('contactName').value;
+      const phone = document.getElementById('contactPhone').value;
+      const email = document.getElementById('contactEmail').value || 'Not provided';
+      const cat = document.getElementById('contactCategory').value;
+      const msg = document.getElementById('contactMessage').value;
+
+      const refId = 'SVL-ENQ-' + Math.floor(100000 + Math.random() * 900000);
+
+      const waMsg = `*Sri Vijaya Clinical Laboratories - Customer Enquiry*%0A%0A` +
+        `*Reference ID:* ${refId}%0A` +
+        `*Name:* ${encodeURIComponent(name)}%0A` +
+        `*Phone:* ${phone}%0A` +
+        `*Email:* ${encodeURIComponent(email)}%0A` +
+        `*Category:* ${encodeURIComponent(cat)}%0A` +
+        `*Message:* ${encodeURIComponent(msg)}%0A%0A` +
+        `Please respond to this inquiry. Thank you!`;
+
+      alert(`Thank you, ${name}!\n\nYour enquiry regarding "${cat}" has been recorded (Ref: ${refId}).\nOur medical team will contact you at ${phone} shortly.\n\nYou will also be redirected to WhatsApp to send your message directly.`);
+      window.open(`https://wa.me/919577334499?text=${waMsg}`, '_blank');
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery & Laboratory Infrastructure | Sri Vijaya Clinical Laboratories</title>
+  <meta name="description" content="Visual tour of Sri Vijaya Clinical Laboratories. View our automated Roche and Sysmex analyzers, sterile phlebotomy lounges, central reference lab, and medical team.">
+  <link rel="icon" type="image/png" href="assets/images/cropped-logo-png.png">
+  
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Modern Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge"><i class="fa-solid fa-certificate"></i> NABL Compliant &amp; ISO 9001:2015</span>
+        <span class="topbar-link"><i class="fa-solid fa-clock"></i> 24/7 STAT Lab Services Available</span>
+        <span class="topbar-link"><i class="fa-solid fa-location-dot"></i> Palakollu &middot; Bhimavaram &middot; Tatipaka</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+919577334499" class="topbar-link"><i class="fa-solid fa-phone"></i> +91 95773 34499</a>
+        <a href="home-collection.html" class="topbar-link" style="color: var(--accent-teal); font-weight: 700;">
+          <i class="fa-solid fa-house-medical"></i> Free Home Collection &gt; ₹500
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo-group">
+          <a href="index.html" style="display: flex; align-items: center; gap: 0.75rem;">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="site-logo">
+            <img src="assets/images/25_year_logo-1024x974.png" alt="25 Years Excellence" class="silver-jubilee-badge">
+          </a>
+        </div>
+
+        <nav class="nav-menu">
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="about.html" class="nav-link">About Us</a></div>
+          
+          <!-- Dropdown: Health Packages & Lab Tests -->
+          <div class="nav-item has-dropdown">
+            <a href="packages.html" class="nav-link">
+              Health Packages <i class="fa-solid fa-chevron-down nav-dropdown-arrow"></i>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="packages.html" class="dropdown-item">
+                <div class="dropdown-icon teal"><i class="fa-solid fa-shield-heart"></i></div>
+                <div>
+                  <div class="dropdown-title">All Health Packages</div>
+                  <div class="dropdown-desc">Comprehensive preventive full-body health checks</div>
+                </div>
+              </a>
+              <a href="tests.html" class="dropdown-item">
+                <div class="dropdown-icon blue"><i class="fa-solid fa-flask-vial"></i></div>
+                <div>
+                  <div class="dropdown-title">Diagnostic Lab Tests Directory</div>
+                  <div class="dropdown-desc">86 individual blood, urine, & molecular tests</div>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown-quick-links">
+                <span class="dropdown-quick-heading">Popular Categories:</span>
+                <div class="dropdown-chips">
+                  <a href="tests.html?cat=hematology">Hematology</a>
+                  <a href="tests.html?cat=biochemistry">Bio-Chemistry</a>
+                  <a href="tests.html?cat=hormones">Thyroid & Vitamins</a>
+                  <a href="tests.html?cat=lipid">Lipid & Heart</a>
+                  <a href="tests.html?cat=liver">Liver (LFT)</a>
+                  <a href="tests.html?cat=molecular">Molecular PCR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item"><a href="home-collection.html" class="nav-link">Home Collection</a></div>
+          <div class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></div>
+          <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="search-trigger-btn" aria-label="Search tests">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Search tests...</span>
+          </button>
+
+          <button class="btn btn-primary btn-sm" onclick="openBookingCheckoutWizard()">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book Now</span>
+          </button>
+
+          <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <section style="background: radial-gradient(circle at 85% 25%, rgba(0, 168, 150, 0.18) 0%, transparent 60%), linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 100%); color: var(--white); padding: 4.5rem 0 3.75rem 0;">
+    <div class="container text-center" style="text-align: center;">
+      <span class="badge badge-teal" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-images"></i> Real Infrastructure Tour</span>
+      <h1 style="color: var(--white); font-size: clamp(2.2rem, 3.8vw, 3rem); margin-bottom: 0.75rem; font-weight: 800;">
+        Laboratory Photo Gallery & Facilities
+      </h1>
+      <p style="color: var(--neutral-300); max-width: 680px; margin: 0 auto; font-size: 1.1rem; line-height: 1.6;">
+        Explore our automated robotic testing bays, specialized chemiluminescence analyzers, sterile phlebotomy lounges, and the clinical team dedicated to your healthcare.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Gallery Section with Category Filter Tabs -->
+  <section style="padding: 4.5rem 0 6rem 0; background: var(--neutral-50);">
+    <div class="container">
+      
+      <!-- Category Filter Tabs -->
+      <div style="margin-bottom: 2.5rem; display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap;">
+        <button class="filter-tab-btn active" data-cat="all" onclick="filterGallery('all')">
+          <i class="fa-solid fa-border-all" style="margin-right: 0.35rem;"></i> All Photos (22)
+        </button>
+        <button class="filter-tab-btn" data-cat="equipment" onclick="filterGallery('equipment')">
+          <i class="fa-solid fa-microscope" style="margin-right: 0.35rem;"></i> Analyzers & Instruments (6)
+        </button>
+        <button class="filter-tab-btn" data-cat="infrastructure" onclick="filterGallery('infrastructure')">
+          <i class="fa-solid fa-hospital" style="margin-right: 0.35rem;"></i> Lab Infrastructure (9)
+        </button>
+        <button class="filter-tab-btn" data-cat="team" onclick="filterGallery('team')">
+          <i class="fa-solid fa-user-doctor" style="margin-right: 0.35rem;"></i> Medical Team & Staff (4)
+        </button>
+        <button class="filter-tab-btn" data-cat="centres" onclick="filterGallery('centres')">
+          <i class="fa-solid fa-map-location-dot" style="margin-right: 0.35rem;"></i> Diagnostic Centres (3)
+        </button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryContainer">
+
+        <div class="gallery-card" data-category="centres" onclick="openLightbox(0)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4607-scaled.jpg" alt="Palakollu Central Reference Lab & 25-Member Staff" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Central Lab & Team</span>
+            <h4 class="gallery-caption">Palakollu Central Reference Lab & 25-Member Staff</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="equipment" onclick="openLightbox(1)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4658-768x512.jpg" alt="Sysmex 5-Part Differential Hematology Station" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Automated Hematology</span>
+            <h4 class="gallery-caption">Sysmex 5-Part Differential Hematology Station</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="equipment" onclick="openLightbox(2)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4675-768x512.jpg" alt="ECLIA Chemiluminescence Immunoassay Analyzer" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Hormone Chemiluminescence</span>
+            <h4 class="gallery-caption">ECLIA Chemiluminescence Immunoassay Analyzer</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="equipment" onclick="openLightbox(3)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4661-768x512.jpg" alt="Roche Automated Biochemistry Testing Suite" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Clinical Chemistry</span>
+            <h4 class="gallery-caption">Roche Automated Biochemistry Testing Suite</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="centres" onclick="openLightbox(4)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4620-scaled.jpg" alt="Omics Next Gen Laboratories (Bhimavaram Branch)" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Regional Centre</span>
+            <h4 class="gallery-caption">Omics Next Gen Laboratories (Bhimavaram Branch)</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="centres" onclick="openLightbox(5)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4766-scaled.jpg" alt="Sri Vijaya Clinical Laboratory (Tatipaka Care Hub)" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Regional Centre</span>
+            <h4 class="gallery-caption">Sri Vijaya Clinical Laboratory (Tatipaka Care Hub)</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="equipment" onclick="openLightbox(6)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4667-768x512.jpg" alt="High-Precision Centrifuge & Separation Desk" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Sample Preparation</span>
+            <h4 class="gallery-caption">High-Precision Centrifuge & Separation Desk</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="equipment" onclick="openLightbox(7)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4685-768x512.jpg" alt="Automated Electrolyte & Blood Gas Testing Unit" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Critical Care Testing</span>
+            <h4 class="gallery-caption">Automated Electrolyte & Blood Gas Testing Unit</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(8)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4689-768x512.jpg" alt="Sterile Sample Collection & Phlebotomy Station" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Phlebotomy Lounge</span>
+            <h4 class="gallery-caption">Sterile Sample Collection & Phlebotomy Station</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="equipment" onclick="openLightbox(9)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4693-768x512.jpg" alt="Clinical Microscopy & Cellular Morphology Bench" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Pathology & Microscopy</span>
+            <h4 class="gallery-caption">Clinical Microscopy & Cellular Morphology Bench</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(10)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4694-768x512.jpg" alt="Reagent Cold-Chain Storage & IQC Calibration Desk" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Quality Control</span>
+            <h4 class="gallery-caption">Reagent Cold-Chain Storage & IQC Calibration Desk</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(11)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4716-768x512.jpg" alt="Secondary Automated Chemistry Testing Lane" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Analytical Bench</span>
+            <h4 class="gallery-caption">Secondary Automated Chemistry Testing Lane</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(12)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4732-1-768x512.jpg" alt="Specimen Ingestion & Barcoded Processing Lanes" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Laboratory Setup</span>
+            <h4 class="gallery-caption">Specimen Ingestion & Barcoded Processing Lanes</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(13)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4737-768x512.jpg" alt="Specimen Incubation & Precision Diagnostic Bench" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Incubation & Prep</span>
+            <h4 class="gallery-caption">Specimen Incubation & Precision Diagnostic Bench</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(14)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4743-768x512.jpg" alt="Digital LIS Integration & Barcode Tracking Desk" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Digital Systems</span>
+            <h4 class="gallery-caption">Digital LIS Integration & Barcode Tracking Desk</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(15)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4748-1-768x512.jpg" alt="Patient Intake, Reception & Consultation Desk" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Patient Care Counter</span>
+            <h4 class="gallery-caption">Patient Intake, Reception & Consultation Desk</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="team" onclick="openLightbox(16)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/DSC4722-scaled.jpg" alt="Mobile Phlebotomists & Regional Laboratory Staff" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Phlebotomy Team</span>
+            <h4 class="gallery-caption">Mobile Phlebotomists & Regional Laboratory Staff</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="team" onclick="openLightbox(17)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/Murali-gari.webp" alt="Ln. Kommula Murali Krishna — Founder & Managing Director" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Founder & Chairman</span>
+            <h4 class="gallery-caption">Ln. Kommula Murali Krishna — Founder & Managing Director</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="team" onclick="openLightbox(18)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/Dr.prasanthi.webp" alt="Dr. K. Prasanthi — M.D. Pathology" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Consultant Pathologist</span>
+            <h4 class="gallery-caption">Dr. K. Prasanthi — M.D. Pathology</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="team" onclick="openLightbox(19)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/Team-.png" alt="Dr. L. Rajendra Prasad — M.D. Radio-Diagnosis" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Consultant Radiologist</span>
+            <h4 class="gallery-caption">Dr. L. Rajendra Prasad — M.D. Radio-Diagnosis</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="team" onclick="openLightbox(20)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/laksjmi.jpg" alt="Ln. Kommula Srilakshmi — Director of Operations" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Director Administration</span>
+            <h4 class="gallery-caption">Ln. Kommula Srilakshmi — Director of Operations</h4>
+          </div>
+        </div>
+        <div class="gallery-card" data-category="infrastructure" onclick="openLightbox(21)">
+          <div class="gallery-thumb-wrap">
+            <img src="assets/images/25_year_logo-1024x974.png" alt="25 Years Silver Jubilee Accreditation Seal (1997–2026)" loading="lazy">
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+          <div class="gallery-info">
+            <span class="gallery-cat-badge">Silver Jubilee Emblem</span>
+            <h4 class="gallery-caption">25 Years Silver Jubilee Accreditation Seal (1997–2026)</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="galleryLightbox" class="lightbox-modal" onclick="closeLightbox(event)">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightboxDirect()" aria-label="Close Preview">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <button class="lightbox-nav-btn prev" onclick="navigateLightbox(-1)" aria-label="Previous Photo">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="lightbox-nav-btn next" onclick="navigateLightbox(1)" aria-label="Next Photo">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      
+      <img id="lightboxImg" src="" alt="Laboratory Photo" class="lightbox-img">
+      
+      <div class="lightbox-caption-bar">
+        <div id="lightboxTitle" class="lightbox-title"></div>
+        <div id="lightboxDesc" class="lightbox-desc"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action Banner -->
+  <section class="cta-banner" style="background: linear-gradient(135deg, var(--primary-900) 0%, var(--primary-800) 100%); padding: 4.5rem 0; color: var(--white); text-align: center;">
+    <div class="container">
+      <h2 class="cta-banner-title" style="color: var(--white); font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; margin-bottom: 1rem;">
+        Experience World-Class Diagnostics Firsthand
+      </h2>
+      <p style="color: var(--neutral-300); max-width: 600px; margin: 0 auto 2rem auto; font-size: 1.05rem; line-height: 1.6;">
+        Visit our central reference laboratory in Palakollu, or schedule a certified phlebotomist to collect your samples at home today.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="home-collection.html" class="btn btn-accent btn-lg directory-cta-btn">
+          <i class="fa-solid fa-house-medical"></i> Book Home Collection
+        </a>
+        <a href="tests.html" class="btn btn-outline btn-lg directory-cta-btn" style="border-color: rgba(255,255,255,0.4); color: var(--white);">
+          <i class="fa-solid fa-flask-vial"></i> Explore All 86 Tests
+        </a>
+        <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories" target="_blank" class="btn btn-whatsapp btn-lg directory-cta-btn">
+          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="footer-logo">
+          </div>
+          <p style="font-size: 0.875rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--neutral-400);">
+            Sri Vijaya Clinical Laboratories has 25+ years of proven diagnostic excellence in Palakollu, Bhimavaram, and Tatipaka. First automated clinical laboratory in the district providing precision testing, digital reporting, and doorstep home sample collection.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-teal"><i class="fa-solid fa-shield-check"></i> NABL Compliant</span>
+            <span class="badge badge-primary"><i class="fa-solid fa-certificate"></i> ISO 9001:2015</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="packages.html">Health Packages</a></li>
+            <li><a href="tests.html">All Lab Tests</a></li>
+            <li><a href="home-collection.html">Home Collection</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Diagnostic Centres</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html#centers">Palakollu Central Lab (24/7)</a></li>
+            <li><a href="about.html#centers">Bhimavaram Regional Lab</a></li>
+            <li><a href="about.html#centers">Tatipaka Diagnostic Centre</a></li>
+            <li><a href="home-collection.html">Doorstep Home Collection</a></li>
+            <li><a href="gallery.html">Lab Infrastructure Tour</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact &amp; Help</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Emergency &amp; Booking Hotline</strong><br>
+              <a href="tel:+919577334499" style="color: var(--white); font-weight: 700;">+91 95773 34499</a> / <a href="tel:+917875712345" style="color: var(--white);">78757 12345</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email Support</strong><br>
+              <a href="mailto:info@vijayalabs.com" style="color: var(--neutral-300);">info@vijayalabs.com</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Palakollu Central Reference Lab</strong><br>
+              Opp. Head Post Office, Journalist Colony, Palakollu – 534260
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 1997 - 2026 Sri Vijaya Clinical Laboratories. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem; font-size: 0.8125rem;">
+          <a href="about.html">About Sri Vijaya Labs</a>
+          <a href="about.html#centers">Our Centres</a>
+          <a href="gallery.html">Photo Gallery</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories" target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Mobile Bottom Bar -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bar-actions">
+      <a href="index.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+      <a href="tests.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-flask-vial"></i>
+        <span>Tests</span>
+      </a>
+      <a href="packages.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-shield-heart"></i>
+        <span>Packages</span>
+      </a>
+      <a href="gallery.html" class="mobile-nav-pill active">
+        <i class="fa-solid fa-images"></i>
+        <span>Gallery</span>
+      </a>
+      <a href="https://wa.me/919577334499?text=Hello%20Vijaya%20Labs" target="_blank" class="btn btn-whatsapp btn-sm" style="width: 44px; height: 44px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center;">
+        <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Universal Search Modal -->
+  <div id="searchModal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Search Tests &amp; Health Packages</h3>
+        <button class="modal-close-btn" onclick="closeAllModals()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="search-modal-input-wrap">
+          <i class="fa-solid fa-magnifying-glass search-modal-icon"></i>
+          <input type="text" id="searchModalInput" class="search-modal-input" placeholder="Type test name, condition, or package...">
+        </div>
+        <div id="searchResultsList" class="search-results-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Checkout Wizard Modal -->
+  <div id="checkoutModal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-clipboard-check" style="color: var(--accent-teal); margin-right: 0.5rem;"></i> Schedule Your Diagnostic Appointment</h3>
+        <button class="modal-close-btn" onclick="closeAllModals()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="checkoutWizardContent">
+        <form id="bookingForm" onsubmit="submitBookingForm(event)">
+          <div class="form-group">
+            <label class="form-label">Patient Full Name *</label>
+            <input type="text" name="patientName" class="form-control" placeholder="Enter patient's full name" required>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp Number *</label>
+              <input type="tel" name="patientPhone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Patient Age &amp; Gender *</label>
+              <input type="text" name="patientAge" class="form-control" placeholder="e.g. 45 / Male" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Collection Method *</label>
+            <div class="responsive-form-row">
+              <label style="border: 1.5px solid var(--primary-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="home" checked>
+                <span><strong>Home Sample Collection</strong> (Doorstep)</span>
+              </label>
+              <label style="border: 1.5px solid var(--neutral-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="walkin">
+                <span><strong>Walk-in Lab Visit</strong> (Centre)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Preferred Date *</label>
+              <input type="date" name="bookingDate" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Time Slot *</label>
+              <select name="bookingSlot" class="form-control" required>
+                <option value="06:00 AM - 08:00 AM (Early Fasting)">06:00 AM - 08:00 AM (Fasting)</option>
+                <option value="08:00 AM - 10:00 AM (Morning)">08:00 AM - 10:00 AM (Morning)</option>
+                <option value="10:00 AM - 12:00 PM (Mid-day)">10:00 AM - 12:00 PM (Mid-day)</option>
+                <option value="02:00 PM - 05:00 PM (Afternoon)">02:00 PM - 05:00 PM (Afternoon)</option>
+                <option value="05:00 PM - 08:00 PM (Evening)">05:00 PM - 08:00 PM (Evening)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Home Address &amp; PIN code (If Home Collection)</label>
+            <textarea name="patientAddress" class="form-control" rows="2" placeholder="House/Flat No, Landmark, Town/Village and 6-digit PIN code"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+            <i class="fa-solid fa-lock"></i> Confirm &amp; Book Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/tests-data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    const GALLERY_ITEMS = [
+  {
+    "id": 1,
+    "img": "assets/images/DSC4607-scaled.jpg",
+    "category": "centres",
+    "badge": "Central Lab & Team",
+    "title": "Palakollu Central Reference Lab & 25-Member Staff",
+    "desc": "Main reference laboratory facility and the complete diagnostic team, pathologists, and phlebotomy coordinators outside the Palakollu centre."
+  },
+  {
+    "id": 2,
+    "img": "assets/images/DSC4658-768x512.jpg",
+    "category": "equipment",
+    "badge": "Automated Hematology",
+    "title": "Sysmex 5-Part Differential Hematology Station",
+    "desc": "Automated cell counter running Complete Blood Count (CBC), absolute differentials, platelet parameters, and erythrocyte sedimentation rates."
+  },
+  {
+    "id": 3,
+    "img": "assets/images/DSC4675-768x512.jpg",
+    "category": "equipment",
+    "badge": "Hormone Chemiluminescence",
+    "title": "ECLIA Chemiluminescence Immunoassay Analyzer",
+    "desc": "Specialized immunoassay station for ultra-sensitive Thyroid profiles (T3, T4, TSH), Vitamin D, Vitamin B12, and reproductive fertility hormones."
+  },
+  {
+    "id": 4,
+    "img": "assets/images/DSC4661-768x512.jpg",
+    "category": "equipment",
+    "badge": "Clinical Chemistry",
+    "title": "Roche Automated Biochemistry Testing Suite",
+    "desc": "Robotic spectrophotometry for Liver Function (LFT), Kidney Function (RFT), Lipid profiles, and enzymatic HbA1c glucose monitoring."
+  },
+  {
+    "id": 5,
+    "img": "assets/images/DSC4620-scaled.jpg",
+    "category": "centres",
+    "badge": "Regional Centre",
+    "title": "Omics Next Gen Laboratories (Bhimavaram Branch)",
+    "desc": "Advanced regional laboratory facility located on J.P. Road, Bhimavaram, providing specialized testing and doorstep sample collection."
+  },
+  {
+    "id": 6,
+    "img": "assets/images/DSC4766-scaled.jpg",
+    "category": "centres",
+    "badge": "Regional Centre",
+    "title": "Sri Vijaya Clinical Laboratory (Tatipaka Care Hub)",
+    "desc": "Full-service diagnostic centre in Dr. B.R. Ambedkar Konaseema district serving Tatipaka, Razole, and surrounding coastal mandals."
+  },
+  {
+    "id": 7,
+    "img": "assets/images/DSC4667-768x512.jpg",
+    "category": "equipment",
+    "badge": "Sample Preparation",
+    "title": "High-Precision Centrifuge & Separation Desk",
+    "desc": "Temperature-controlled specimen centrifugation ensuring cellular integrity and serum preservation prior to analytical testing."
+  },
+  {
+    "id": 8,
+    "img": "assets/images/DSC4685-768x512.jpg",
+    "category": "equipment",
+    "badge": "Critical Care Testing",
+    "title": "Automated Electrolyte & Blood Gas Testing Unit",
+    "desc": "Ion-selective electrode (ISE) instrumentation measuring Serum Sodium, Potassium, Chloride, and Calcium for emergency STAT reporting."
+  },
+  {
+    "id": 9,
+    "img": "assets/images/DSC4689-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Phlebotomy Lounge",
+    "title": "Sterile Sample Collection & Phlebotomy Station",
+    "desc": "Hygienic patient blood draw lounge equipped with sterile BD vacutainer needles and gentle phlebotomy seating."
+  },
+  {
+    "id": 10,
+    "img": "assets/images/DSC4693-768x512.jpg",
+    "category": "equipment",
+    "badge": "Pathology & Microscopy",
+    "title": "Clinical Microscopy & Cellular Morphology Bench",
+    "desc": "High-resolution binocular optical microscope for peripheral blood smear examinations, body fluid cytology, and manual cross-checks."
+  },
+  {
+    "id": 11,
+    "img": "assets/images/DSC4694-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Quality Control",
+    "title": "Reagent Cold-Chain Storage & IQC Calibration Desk",
+    "desc": "Standardized 2°C to 8°C cold preservation and daily Internal Quality Control multi-level calibration procedures."
+  },
+  {
+    "id": 12,
+    "img": "assets/images/DSC4716-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Analytical Bench",
+    "title": "Secondary Automated Chemistry Testing Lane",
+    "desc": "Continuous processing benches at Palakollu Central Lab handling routine blood chemistry panels and special investigations."
+  },
+  {
+    "id": 13,
+    "img": "assets/images/DSC4732-1-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Laboratory Setup",
+    "title": "Specimen Ingestion & Barcoded Processing Lanes",
+    "desc": "Standard operating workflow ensuring all samples are barcoded, digitally tracked, and tested with zero manual transcription."
+  },
+  {
+    "id": 14,
+    "img": "assets/images/DSC4737-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Incubation & Prep",
+    "title": "Specimen Incubation & Precision Diagnostic Bench",
+    "desc": "Temperature-monitored bacterial culture and biochemical incubation unit supporting clinical microbiology."
+  },
+  {
+    "id": 15,
+    "img": "assets/images/DSC4743-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Digital Systems",
+    "title": "Digital LIS Integration & Barcode Tracking Desk",
+    "desc": "Bidirectional Laboratory Information System (LIS) interfacing analyzers directly to secure cloud database."
+  },
+  {
+    "id": 16,
+    "img": "assets/images/DSC4748-1-768x512.jpg",
+    "category": "infrastructure",
+    "badge": "Patient Care Counter",
+    "title": "Patient Intake, Reception & Consultation Desk",
+    "desc": "Spacious patient waiting area, test registration, and printed report collection counter at the Central Reference Lab."
+  },
+  {
+    "id": 17,
+    "img": "assets/images/DSC4722-scaled.jpg",
+    "category": "team",
+    "badge": "Phlebotomy Team",
+    "title": "Mobile Phlebotomists & Regional Laboratory Staff",
+    "desc": "Certified sample collection specialists who provide doorstep home visits with cold-chain portable carrier bags across 45+ mandals."
+  },
+  {
+    "id": 18,
+    "img": "assets/images/Murali-gari.webp",
+    "category": "team",
+    "badge": "Founder & Chairman",
+    "title": "Ln. Kommula Murali Krishna — Founder & Managing Director",
+    "desc": "Pioneered clinical diagnostic automation in Palakollu in 1997. Over 25 years of healthcare leadership and humanitarian community health service."
+  },
+  {
+    "id": 19,
+    "img": "assets/images/Dr.prasanthi.webp",
+    "category": "team",
+    "badge": "Consultant Pathologist",
+    "title": "Dr. K. Prasanthi — M.D. Pathology",
+    "desc": "Chief Pathologist providing clinical governance, hematology review, biopsy cytology reports, and critical value authorizations."
+  },
+  {
+    "id": 20,
+    "img": "assets/images/Team-.png",
+    "category": "team",
+    "badge": "Consultant Radiologist",
+    "title": "Dr. L. Rajendra Prasad — M.D. Radio-Diagnosis",
+    "desc": "Senior diagnostic imaging specialist advising on clinical cross-correlations and multi-modality health screening."
+  },
+  {
+    "id": 21,
+    "img": "assets/images/laksjmi.jpg",
+    "category": "team",
+    "badge": "Director Administration",
+    "title": "Ln. Kommula Srilakshmi — Director of Operations",
+    "desc": "Directing patient experience, quality compliance, doorstep home collection coordination, and community outreach programs."
+  },
+  {
+    "id": 22,
+    "img": "assets/images/25_year_logo-1024x974.png",
+    "category": "infrastructure",
+    "badge": "Silver Jubilee Emblem",
+    "title": "25 Years Silver Jubilee Accreditation Seal (1997–2026)",
+    "desc": "Celebrating a quarter-century of clinical precision, continuous NABL compliance, and patient trust across Andhra Pradesh."
+  }
+];
+    let activeLightboxIndex = 0;
+    let visibleIndices = [];
+
+    function updateVisibleIndices(category) {
+      visibleIndices = [];
+      GALLERY_ITEMS.forEach((item, index) => {
+        if (category === 'all' || item.category === category) {
+          visibleIndices.push(index);
+        }
+      });
+    }
+
+    function filterGallery(category) {
+      // Update active button
+      document.querySelectorAll('.filter-tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-cat') === category);
+      });
+
+      const cards = document.querySelectorAll('.gallery-card');
+      cards.forEach(card => {
+        const itemCat = card.getAttribute('data-category');
+        if (category === 'all' || itemCat === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      updateVisibleIndices(category);
+    }
+
+    function openLightbox(index) {
+      activeLightboxIndex = index;
+      const item = GALLERY_ITEMS[index];
+      if (!item) return;
+
+      const modal = document.getElementById('galleryLightbox');
+      const img = document.getElementById('lightboxImg');
+      const title = document.getElementById('lightboxTitle');
+      const desc = document.getElementById('lightboxDesc');
+
+      img.src = item.img;
+      title.textContent = item.title;
+      desc.textContent = item.desc;
+
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightboxDirect() {
+      const modal = document.getElementById('galleryLightbox');
+      modal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeLightbox(event) {
+      if (event.target === document.getElementById('galleryLightbox')) {
+        closeLightboxDirect();
+      }
+    }
+
+    function navigateLightbox(direction) {
+      const currentPos = visibleIndices.indexOf(activeLightboxIndex);
+      let nextPos = currentPos + direction;
+
+      if (nextPos >= visibleIndices.length) nextPos = 0;
+      if (nextPos < 0) nextPos = visibleIndices.length - 1;
+
+      const nextIndex = visibleIndices[nextPos];
+      openLightbox(nextIndex);
+    }
+
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+      const modal = document.getElementById('galleryLightbox');
+      if (modal && modal.classList.contains('open')) {
+        if (e.key === 'Escape') closeLightboxDirect();
+        if (e.key === 'ArrowLeft') navigateLightbox(-1);
+        if (e.key === 'ArrowRight') navigateLightbox(1);
+      }
+    });
+
+    // Initialize visible indices
+    updateVisibleIndices('all');
+  </script>
+</body>
+</html>

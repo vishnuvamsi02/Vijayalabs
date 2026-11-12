@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doorstep Home Sample Collection | Sri Vijaya Clinical Laboratories</title>
+  <meta name="description" content="Book certified doorstep blood & urine sample collection in Palakollu, Bhimavaram, Tatipaka and 45+ mandals. Free on orders above ₹500. Sterile BD vacutainers, cold-chain transport & same-day digital reports.">
+  <link rel="icon" type="image/png" href="assets/images/cropped-logo-png.png">
+  
+  <!-- Font Awesome 6 Pro / Free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Modern Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Reports removed) -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge"><i class="fa-solid fa-van-shuttle"></i> Doorstep Health Service</span>
+        <span class="topbar-link"><i class="fa-solid fa-clock"></i> Morning Fasting Slots from 6:00 AM</span>
+        <span class="topbar-link"><i class="fa-solid fa-location-dot"></i> Palakollu · Bhimavaram · Tatipaka</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+919577334499" class="topbar-link"><i class="fa-solid fa-phone"></i> +91 95773 34499</a>
+        <a href="home-collection.html" class="topbar-link" style="color: var(--accent-teal); font-weight: 700;">
+          <i class="fa-solid fa-house-medical"></i> Free Home Collection &gt; ₹500
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header (Exact Ordered Nav: 1. Home, 2. About Us, 3. Health Packages [with Lab Tests dropdown], 4. Home Collection, 5. Contact) -->
+  <header class="site-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo-group">
+          <a href="index.html" style="display: flex; align-items: center; gap: 0.75rem;">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="site-logo">
+            <img src="assets/images/25_year_logo-1024x974.png" alt="25 Years Excellence" class="silver-jubilee-badge">
+          </a>
+        </div>
+
+        <nav class="nav-menu">
+          <div class="nav-item"><a href="index.html" class="nav-link">Home</a></div>
+          <div class="nav-item"><a href="about.html" class="nav-link">About Us</a></div>
+          
+          <!-- Dropdown: Health Packages & Lab Tests -->
+          <div class="nav-item has-dropdown">
+            <a href="packages.html" class="nav-link">
+              Health Packages <i class="fa-solid fa-chevron-down nav-dropdown-arrow"></i>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="packages.html" class="dropdown-item">
+                <div class="dropdown-icon teal"><i class="fa-solid fa-shield-heart"></i></div>
+                <div>
+                  <div class="dropdown-title">All Health Packages</div>
+                  <div class="dropdown-desc">Comprehensive preventive full-body health checks</div>
+                </div>
+              </a>
+              <a href="tests.html" class="dropdown-item">
+                <div class="dropdown-icon blue"><i class="fa-solid fa-flask-vial"></i></div>
+                <div>
+                  <div class="dropdown-title">Diagnostic Lab Tests Directory</div>
+                  <div class="dropdown-desc">86 individual blood, urine, & molecular tests</div>
+                </div>
+              </a>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown-quick-links">
+                <span class="dropdown-quick-heading">Popular Categories:</span>
+                <div class="dropdown-chips">
+                  <a href="tests.html?cat=hematology">Hematology</a>
+                  <a href="tests.html?cat=biochemistry">Bio-Chemistry</a>
+                  <a href="tests.html?cat=hormones">Thyroid & Vitamins</a>
+                  <a href="tests.html?cat=lipid">Lipid & Heart</a>
+                  <a href="tests.html?cat=liver">Liver (LFT)</a>
+                  <a href="tests.html?cat=molecular">Molecular PCR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-item"><a href="home-collection.html" class="nav-link active">Home Collection</a></div>
+          <div class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></div>
+          <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="search-trigger-btn" aria-label="Search tests" onclick="openSearchModal()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Search tests...</span>
+          </button>
+
+          <button class="btn btn-primary btn-sm" onclick="openBookingCheckoutWizard()">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book Visit</span>
+          </button>
+
+          <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Direct Quick Booking Card -->
+  <section style="background: radial-gradient(circle at 80% 25%, rgba(0, 168, 150, 0.2) 0%, transparent 60%), linear-gradient(135deg, var(--primary-900) 0%, #0A2F57 100%); color: var(--white); padding: 4.5rem 0 4rem 0;">
+    <div class="container">
+      <div class="responsive-split-hero" style="align-items: center;">
+        
+        <!-- Left Hero Details -->
+        <div>
+          <span class="badge badge-teal" style="margin-bottom: 1rem;"><i class="fa-solid fa-house-medical"></i> Certified Phlebotomists At Your Doorstep</span>
+          <h1 style="color: var(--white); font-size: clamp(2.2rem, 3.8vw, 3.2rem); line-height: 1.15; margin-bottom: 1.25rem; font-weight: 800;">
+            Safe, Gentle & Painless Doorstep Blood Collection
+          </h1>
+          <p style="color: var(--neutral-300); font-size: 1.1rem; line-height: 1.65; margin-bottom: 2rem;">
+            Ideal for elderly parents, infants, busy professionals, and patients requiring fasting blood sugar or routine health monitoring. We bring the clinical accuracy of Sri Vijaya Laboratories right to your living room.
+          </p>
+
+          <!-- Core Benefits Grid -->
+          <div class="responsive-form-row" style="margin-bottom: 2.25rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem; color: var(--neutral-100); font-size: 0.95rem;">
+              <i class="fa-solid fa-shield-virus" style="color: var(--accent-teal); font-size: 1.1rem;"></i> Single-Use Sterile Vacutainers
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem; color: var(--neutral-100); font-size: 0.95rem;">
+              <i class="fa-solid fa-clock" style="color: var(--accent-teal); font-size: 1.1rem;"></i> 6:00 AM Early Fasting Slots
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem; color: var(--neutral-100); font-size: 0.95rem;">
+              <i class="fa-solid fa-snowflake" style="color: var(--accent-teal); font-size: 1.1rem;"></i> Cold-Chain Sample Coolers
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem; color: var(--neutral-100); font-size: 0.95rem;">
+              <i class="fa-brands fa-whatsapp" style="color: var(--accent-teal); font-size: 1.1rem;"></i> Reports on WhatsApp in 4-6 hrs
+            </div>
+          </div>
+
+          <!-- PIN Code Checker Widget -->
+          <div style="background: rgba(255,255,255,0.08); border: 1.5px solid rgba(255,255,255,0.2); border-radius: var(--radius-lg); padding: 1.25rem; max-width: 520px; backdrop-filter: blur(8px);">
+            <div style="font-size: 0.925rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--white); display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fa-solid fa-map-pin" style="color: var(--accent-teal);"></i> Check Instant Serviceability in Your Area:
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+              <input type="text" id="hcPagePinInput" placeholder="Enter 6-digit PIN (e.g. 534260, 534201, 533249)" class="pincode-input" maxlength="6" style="flex: 1; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.3); padding: 0.75rem 1rem;">
+              <button class="btn btn-accent" onclick="checkServicePincode('hcPagePinInput', 'hcPagePinResult')" style="white-space: nowrap;">
+                <i class="fa-solid fa-location-crosshairs"></i> Check PIN
+              </button>
+            </div>
+            <div id="hcPagePinResult" class="pincode-result-box" style="margin-top: 0.75rem;"></div>
+          </div>
+        </div>
+
+        <!-- Right Quick Booking Card with WhatsApp forwarding -->
+        <div>
+          <div style="background: var(--white); border-radius: var(--radius-xl); padding: 2.5rem 2rem; box-shadow: var(--shadow-xl); color: var(--neutral-800); border: 1px solid var(--neutral-200);">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+              <div style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-teal-light); color: var(--accent-teal-dark); display: flex; align-items: center; justify-content: center; font-size: 1.15rem;">
+                <i class="fa-solid fa-calendar-plus"></i>
+              </div>
+              <div>
+                <h3 style="font-size: 1.35rem; color: var(--primary-900); font-weight: 800; margin: 0;">Schedule Home Collection</h3>
+                <span class="badge badge-emerald" style="font-size: 0.75rem; margin-top: 0.2rem;"><i class="fa-solid fa-gift"></i> FREE on orders &gt; ₹500</span>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--neutral-500); margin-bottom: 1.5rem;">Fill details below and we will confirm your slot and send you booking info via WhatsApp.</p>
+
+            <form onsubmit="handleDirectHomeBooking(event)">
+              <div class="form-group">
+                <label class="form-label">Patient Full Name *</label>
+                <input type="text" id="directName" class="form-control" placeholder="Enter patient's name" required>
+              </div>
+
+              <div class="responsive-form-row">
+                <div class="form-group">
+                  <label class="form-label">WhatsApp Number *</label>
+                  <input type="tel" id="directPhone" class="form-control" placeholder="10-digit number" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Area PIN Code *</label>
+                  <input type="text" id="directPin" class="form-control" placeholder="e.g. 534260" maxlength="6" required>
+                </div>
+              </div>
+
+              <div class="responsive-form-row">
+                <div class="form-group">
+                  <label class="form-label">Preferred Date *</label>
+                  <input type="date" id="directDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Time Slot *</label>
+                  <select id="directSlot" class="form-control" required>
+                    <option value="06:00 AM - 08:00 AM (Early Fasting)">06:00 AM - 08:00 AM (Fasting)</option>
+                    <option value="08:00 AM - 10:00 AM (Morning)">08:00 AM - 10:00 AM (Morning)</option>
+                    <option value="10:00 AM - 12:00 PM (Mid-day)">10:00 AM - 12:00 PM (Mid-day)</option>
+                    <option value="02:00 PM - 05:00 PM (Afternoon)">02:00 PM - 05:00 PM (Afternoon)</option>
+                    <option value="05:00 PM - 08:00 PM (Evening)">05:00 PM - 08:00 PM (Evening)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Required Tests or Health Package</label>
+                <input type="text" id="directTests" class="form-control" placeholder="e.g. Full Body Package, Sugar, Thyroid, CBC">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Complete Home Address & Landmark *</label>
+                <textarea id="directAddress" class="form-control" rows="2" placeholder="House/Flat No, Street, Landmark, Town/Village" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+                <i class="fa-solid fa-calendar-check"></i> Book Home Collection Slot
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Step-by-Step 4-Step Process Explanation -->
+  <section style="padding: 5.5rem 0; background: var(--white);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag emerald"><i class="fa-solid fa-timeline"></i> Simple & Seamless</span>
+        <h2 class="section-title">How Doorstep Sample Collection Works</h2>
+        <p class="section-subtitle">
+          From slot confirmation to encrypted digital WhatsApp report delivery — engineered for patient comfort, speed, and analytical precision.
+        </p>
+      </div>
+
+      <div class="responsive-grid-4">
+        
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2.25rem 1.5rem; text-align: center; position: relative; transition: transform 0.3s ease;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: var(--primary-600); color: var(--white); font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.35rem; box-shadow: 0 4px 12px rgba(10, 47, 87, 0.25);">
+            1
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Book Slot Online</h4>
+          <p style="font-size: 0.88rem; color: var(--neutral-600); line-height: 1.6;">
+            Select tests or full body health packages, choose a convenient morning fasting time, and provide your home address.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2.25rem 1.5rem; text-align: center; position: relative; transition: transform 0.3s ease;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: var(--accent-teal); color: var(--white); font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.35rem; box-shadow: 0 4px 12px rgba(0, 168, 150, 0.25);">
+            2
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Trained Phlebotomist Visits</h4>
+          <p style="font-size: 0.88rem; color: var(--neutral-600); line-height: 1.6;">
+            A certified, vaccinated phlebotomist visits with single-use BD vacutainers, alcohol swabs, and sterile safety gear for gentle draw.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2.25rem 1.5rem; text-align: center; position: relative; transition: transform 0.3s ease;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: var(--primary-700); color: var(--white); font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.35rem; box-shadow: 0 4px 12px rgba(10, 47, 87, 0.25);">
+            3
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Cold-Chain Transport</h4>
+          <p style="font-size: 0.88rem; color: var(--neutral-600); line-height: 1.6;">
+            Barcoded tubes are instantly sealed inside 2°C–8°C insulated transport boxes and transferred directly to our central automated laboratory.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2.25rem 1.5rem; text-align: center; position: relative; transition: transform 0.3s ease;">
+          <div style="width: 52px; height: 52px; border-radius: 50%; background: var(--emerald-600); color: var(--white); font-weight: 800; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto; font-size: 1.35rem; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);">
+            4
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Reports on WhatsApp</h4>
+          <p style="font-size: 0.88rem; color: var(--neutral-600); line-height: 1.6;">
+            Pathologist-verified digital reports signed by Dr. K. Prasanthi M.D. are delivered straight to your WhatsApp & SMS within 4 to 6 hours.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Showcase: Phlebotomy, Equipment & Safety Protocols -->
+  <section style="padding: 5rem 0; background: var(--neutral-50); border-top: 1px solid var(--neutral-200); border-bottom: 1px solid var(--neutral-200);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag teal"><i class="fa-solid fa-camera"></i> Clinical Protocols</span>
+        <h2 class="section-title">Sterile Safety & Phlebotomy Standards</h2>
+        <p class="section-subtitle">
+          See how our trained team prepares, draws, and preserves specimens to maintain clinical laboratory accuracy.
+        </p>
+      </div>
+
+      <div class="responsive-grid-4">
+        
+        <div style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <img src="assets/images/DSC4658-768x512.jpg" alt="Sterile Blood Drawing Equipment" style="width: 100%; height: 200px; object-fit: cover;">
+          <div style="padding: 1.25rem;">
+            <h5 style="font-size: 1rem; color: var(--primary-900); margin-bottom: 0.25rem; font-weight: 700;">100% Sterile Equipment</h5>
+            <p style="font-size: 0.825rem; color: var(--neutral-600); margin: 0;">Freshly unsealed BD Vacutainers and single-use butterfly needles for painless drawing.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <img src="assets/images/DSC4661-768x512.jpg" alt="Gentle Phlebotomy Technique" style="width: 100%; height: 200px; object-fit: cover;">
+          <div style="padding: 1.25rem;">
+            <h5 style="font-size: 1rem; color: var(--primary-900); margin-bottom: 0.25rem; font-weight: 700;">Expert Vein Identification</h5>
+            <p style="font-size: 0.825rem; color: var(--neutral-600); margin: 0;">Specialized techniques for senior citizens, pediatric patients, and delicate veins.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <img src="assets/images/DSC4685-768x512.jpg" alt="Barcoded Sample Labeling" style="width: 100%; height: 200px; object-fit: cover;">
+          <div style="padding: 1.25rem;">
+            <h5 style="font-size: 1rem; color: var(--primary-900); margin-bottom: 0.25rem; font-weight: 700;">On-the-Spot Barcoding</h5>
+            <p style="font-size: 0.825rem; color: var(--neutral-600); margin: 0;">Tubes labeled in front of the patient with unique identifiers to eliminate mix-ups.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <img src="assets/images/DSC4722-scaled.jpg" alt="Automated Reference Laboratory" style="width: 100%; height: 200px; object-fit: cover;">
+          <div style="padding: 1.25rem;">
+            <h5 style="font-size: 1rem; color: var(--primary-900); margin-bottom: 0.25rem; font-weight: 700;">Rapid Analytical Processing</h5>
+            <p style="font-size: 0.825rem; color: var(--neutral-600); margin: 0;">Samples loaded immediately onto automated analyzers without manual transfer delays.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Fasting & Patient Preparation Guidelines -->
+  <section style="padding: 5rem 0; background: var(--white);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag emerald"><i class="fa-solid fa-circle-info"></i> Patient Preparation</span>
+        <h2 class="section-title">Important Guidelines for Accurate Results</h2>
+        <p class="section-subtitle">
+          Follow these simple preparation steps prior to your home sample collection appointment.
+        </p>
+      </div>
+
+      <div class="responsive-grid-3">
+        
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2rem;">
+          <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: #FEF3C7; color: #D97706; display: flex; align-items: center; justify-content: center; font-size: 1.35rem; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Fasting Requirements (10-12 Hrs)</h4>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.6;">
+            For Fasting Blood Sugar (FBS), Lipid Profile, or Full Body Health Packages, observe 10 to 12 hours overnight fasting. You may drink plain water, but refrain from tea, coffee, milk, and snacks.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2rem;">
+          <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: #E0F2FE; color: #0284C7; display: flex; align-items: center; justify-content: center; font-size: 1.35rem; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-pills"></i>
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Morning Medication Guidance</h4>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.6;">
+            Blood pressure medications can typically be taken with a sip of water. For thyroid medicine (Thyronorm/Eltroxin) or diabetes tablets/insulin, take your dose immediately after the blood draw unless advised otherwise by your doctor.
+          </p>
+        </div>
+
+        <div style="background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-xl); padding: 2rem;">
+          <div style="width: 48px; height: 48px; border-radius: var(--radius-md); background: #D1FAE5; color: #059669; display: flex; align-items: center; justify-content: center; font-size: 1.35rem; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-vial"></i>
+          </div>
+          <h4 style="font-size: 1.15rem; color: var(--primary-900); margin-bottom: 0.5rem; font-weight: 700;">Urine & Routine Specimens</h4>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.6;">
+            For Complete Urine Examination (CUE), collect the first morning mid-stream urine in a sterile container provided by our phlebotomist or an airtight sterile cup. Keep sample cool until collection.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviceable Towns & Mandals Grid -->
+  <section style="padding: 5rem 0; background: var(--neutral-50); border-top: 1px solid var(--neutral-200);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag teal"><i class="fa-solid fa-map-location"></i> Service Coverage</span>
+        <h2 class="section-title">Towns & Mandals We Actively Serve</h2>
+        <p class="section-subtitle">
+          Our mobile phlebotomy fleet operates daily across West Godavari and Dr. B.R. Ambedkar Konaseema districts.
+        </p>
+      </div>
+
+      <div class="responsive-grid-3">
+        
+        <div style="background: var(--white); border-radius: var(--radius-xl); padding: 2rem; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+            <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--primary-50); color: var(--primary-600); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h4 style="font-size: 1.25rem; color: var(--primary-900); margin: 0; font-weight: 700;">Palakollu & Surroundings</h4>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.65; margin-bottom: 1.25rem;">
+            Journalist Colony, Ullamparru, Digamarru, Sivadevuni Chikkala, Poolapalli, Yelamanchili, Poduru, and rural villages within 20 km.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-emerald"><i class="fa-solid fa-bolt"></i> 30-45 Mins Arrival</span>
+            <span class="badge badge-primary">PIN: 534260</span>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: var(--radius-xl); padding: 2rem; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+            <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--accent-teal-light); color: var(--accent-teal-dark); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h4 style="font-size: 1.25rem; color: var(--primary-900); margin: 0; font-weight: 700;">Bhimavaram & Suburbs</h4>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.65; margin-bottom: 1.25rem;">
+            J.P. Road, Somavaram, Mavullamma Temple road, Housing Board Colony, Undi, Veeravasaram, Penumantra, and surrounding communities.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-emerald"><i class="fa-solid fa-bolt"></i> 30-45 Mins Arrival</span>
+            <span class="badge badge-teal">PIN: 534201, 534202</span>
+          </div>
+        </div>
+
+        <div style="background: var(--white); border-radius: var(--radius-xl); padding: 2rem; border: 1px solid var(--neutral-200); box-shadow: var(--shadow-sm);">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+            <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--primary-50); color: var(--primary-700); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h4 style="font-size: 1.25rem; color: var(--primary-900); margin: 0; font-weight: 700;">Tatipaka & Konaseema Belt</h4>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--neutral-600); line-height: 1.65; margin-bottom: 1.25rem;">
+            Razole, Nagaram, Malikipuram, Sakhinetipalli, Dindi, Amalapuram highway belt, and riverbank communities.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-emerald"><i class="fa-solid fa-bolt"></i> 45-60 Mins Arrival</span>
+            <span class="badge badge-amber">PIN: 533249, 533242</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section (Item 7 styling, all 3 buttons visible) -->
+  <section class="cta-banner-section">
+    <div class="container">
+      <div class="cta-banner-inner">
+        <span class="cta-banner-tag">
+          <i class="fa-solid fa-shield-heart"></i> Doorstep Diagnostic Care
+        </span>
+        <h2 class="cta-banner-title">
+          Book Your Fasting Blood Collection for Tomorrow Morning
+        </h2>
+        <p class="cta-banner-subtitle">
+          Slots begin as early as 6:00 AM. Our trained phlebotomist visits at your selected time so you can complete your tests comfortably before breakfast.
+        </p>
+        <div class="cta-banner-btn-group">
+          <a href="tel:+919577334499" class="btn btn-white btn-lg">
+            <i class="fa-solid fa-phone"></i> Call Hotline: +91 95773 34499
+          </a>
+          <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories,%20I%20want%20to%20schedule%20a%20home%20sample%20collection." target="_blank" class="btn btn-accent btn-lg">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+          <a href="packages.html" class="btn btn-outline-white btn-lg">
+            <i class="fa-solid fa-shield-heart"></i> View Health Packages
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Item 11: Consistent Standard Footer (Identical to index.html, Reports removed) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/images/cropped-Sri-Vijaya_Eng_Logo-01.png" alt="Sri Vijaya Clinical Laboratories" class="footer-logo">
+          </div>
+          <p style="font-size: 0.875rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--neutral-400);">
+            Sri Vijaya Clinical Laboratories has 25+ years of proven diagnostic excellence in Palakollu, Bhimavaram, and Tatipaka. First automated clinical laboratory in the district providing precision testing, digital reporting, and doorstep home sample collection.
+          </p>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="badge badge-teal"><i class="fa-solid fa-shield-check"></i> NABL Compliant</span>
+            <span class="badge badge-primary"><i class="fa-solid fa-certificate"></i> ISO 9001:2015</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="packages.html">Health Packages</a></li>
+            <li><a href="tests.html">All Lab Tests</a></li>
+            <li><a href="home-collection.html">Home Collection</a></li>
+            <li><a href="about.html#centers">Diagnostic Centres</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Test Categories</h4>
+          <ul class="footer-links-list">
+            <li><a href="tests.html?cat=hematology">Hematology & CBC</a></li>
+            <li><a href="tests.html?cat=biochemistry">Biochemistry & Sugar</a></li>
+            <li><a href="tests.html?cat=hormones">Thyroid & Vitamins</a></li>
+            <li><a href="tests.html?cat=lipid">Lipid & Heart Profile</a></li>
+            <li><a href="tests.html?cat=liver">Liver Function (LFT)</a></li>
+            <li><a href="tests.html?cat=molecular">Molecular PCR</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact & Help</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Emergency & Booking Hotline</strong><br>
+              <a href="tel:+919577334499" style="color: var(--white); font-weight: 700;">+91 95773 34499</a> / <a href="tel:+917875712345" style="color: var(--white);">78757 12345</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email Support</strong><br>
+              <a href="mailto:info@vijayalabs.com" style="color: var(--neutral-300);">info@vijayalabs.com</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Palakollu Central Reference Lab</strong><br>
+              Opp. Head Post Office, Journalist Colony, Palakollu – 534260
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 1997 - 2026 Sri Vijaya Clinical Laboratories. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem; font-size: 0.8125rem;">
+          <a href="about.html">About Sri Vijaya Labs</a>
+          <a href="about.html#centers">Our Centres</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Over Booking Cart Drawer -->
+  <div id="cartBackdrop" class="cart-backdrop" onclick="VijayaCart.closeDrawer()">
+    <div class="cart-drawer" onclick="event.stopPropagation()">
+      <div class="cart-header">
+        <div class="cart-title">
+          <i class="fa-solid fa-clipboard-list" style="color: var(--primary-600);"></i>
+          <span>Your Booking List</span>
+        </div>
+        <button class="cart-close-btn" onclick="VijayaCart.closeDrawer()" aria-label="Close cart">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div id="cartDrawerBody" class="cart-body"></div>
+
+      <div id="cartDrawerFooter" class="cart-footer">
+        <div class="cart-summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotalDisplay">₹0</span>
+        </div>
+        <div class="cart-summary-line" style="color: var(--emerald-600);">
+          <span>Package / Test Savings</span>
+          <span id="cartSavingsDisplay">₹0</span>
+        </div>
+        <div class="cart-summary-line">
+          <span>Home Sample Collection</span>
+          <span style="color: var(--emerald-600); font-weight: 700;">FREE (Orders above ₹500)</span>
+        </div>
+        <div class="cart-total-line">
+          <span>Estimated Total:</span>
+          <span id="cartTotalDisplay">₹0</span>
+        </div>
+
+        <button class="btn btn-accent btn-lg" style="width: 100%;" onclick="openBookingCheckoutWizard()">
+          <i class="fa-solid fa-calendar-check"></i> Proceed to Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Checkout Wizard Modal (With WhatsApp Integration) -->
+  <div id="checkoutModal" class="modal-overlay">
+    <div class="modal-container" style="max-width: 620px;">
+      <div class="modal-header">
+        <h3 class="modal-title"><i class="fa-solid fa-clipboard-check" style="color: var(--accent-teal); margin-right: 0.5rem;"></i> Schedule Your Diagnostic Appointment</h3>
+        <button class="modal-close-btn" onclick="closeAllModals()"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body" id="checkoutWizardContent">
+        <div style="margin-bottom: 1.5rem; background: var(--neutral-50); border: 1px solid var(--neutral-200); border-radius: var(--radius-md); padding: 1rem;">
+          <div style="font-size: 0.85rem; color: var(--neutral-500); margin-bottom: 0.5rem; text-transform: uppercase; font-weight: 700;">Selected Tests & Packages:</div>
+          <div id="checkoutItemsReview"></div>
+          <div style="display: flex; justify-content: space-between; margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px dashed var(--neutral-300);">
+            <strong>Estimated Total:</strong>
+            <strong id="checkoutTotalAmount" style="color: var(--primary-900); font-size: 1.15rem;">₹0</strong>
+          </div>
+        </div>
+
+        <form id="bookingForm" onsubmit="submitBookingForm(event)">
+          <div class="form-group">
+            <label class="form-label">Patient Full Name *</label>
+            <input type="text" name="patientName" class="form-control" placeholder="Enter patient's full name" required>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Phone / WhatsApp Number *</label>
+              <input type="tel" name="patientPhone" class="form-control" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Patient Age & Gender *</label>
+              <input type="text" name="patientAge" class="form-control" placeholder="e.g. 45 / Male" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Collection Method *</label>
+            <div class="responsive-form-row">
+              <label style="border: 1.5px solid var(--primary-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="home" checked>
+                <span><strong>Home Sample Collection</strong> (Doorstep)</span>
+              </label>
+              <label style="border: 1.5px solid var(--neutral-200); border-radius: var(--radius-md); padding: 0.75rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="radio" name="collectionType" value="walkin">
+                <span><strong>Walk-in Lab Visit</strong> (Centre)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="responsive-form-row">
+            <div class="form-group">
+              <label class="form-label">Preferred Date *</label>
+              <input type="date" name="bookingDate" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Time Slot *</label>
+              <select name="bookingSlot" class="form-control" required>
+                <option value="06:00 AM - 08:00 AM (Early Fasting)">06:00 AM - 08:00 AM (Fasting)</option>
+                <option value="08:00 AM - 10:00 AM (Morning)">08:00 AM - 10:00 AM (Morning)</option>
+                <option value="10:00 AM - 12:00 PM (Mid-day)">10:00 AM - 12:00 PM (Mid-day)</option>
+                <option value="02:00 PM - 05:00 PM (Afternoon)">02:00 PM - 05:00 PM (Afternoon)</option>
+                <option value="05:00 PM - 08:00 PM (Evening)">05:00 PM - 08:00 PM (Evening)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Home Address & PIN code (If Home Collection)</label>
+            <textarea name="patientAddress" class="form-control" rows="2" placeholder="House/Flat No, Landmark, Town/Village and 6-digit PIN code"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+            <i class="fa-solid fa-lock"></i> Confirm & Book Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/919577334499?text=Hello%20Sri%20Vijaya%20Clinical%20Laboratories,%20I%20would%20like%20to%20book%20a%20home%20collection." target="_blank" class="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Mobile Bottom Bar (Standardized Navigation) -->
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bar-actions">
+      <a href="index.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+      <a href="tests.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-flask-vial"></i>
+        <span>Tests</span>
+      </a>
+      <a href="packages.html" class="mobile-nav-pill">
+        <i class="fa-solid fa-shield-heart"></i>
+        <span>Packages</span>
+      </a>
+      <a href="home-collection.html" class="mobile-nav-pill active">
+        <i class="fa-solid fa-house-medical"></i>
+        <span>Home Visit</span>
+      </a>
+      <a href="https://wa.me/919577334499?text=Hello%20Vijaya%20Labs" target="_blank" class="btn btn-whatsapp btn-sm" style="width: 44px; height: 44px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center;">
+        <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/tests-data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function handleDirectHomeBooking(e) {
+      e.preventDefault();
+      const name = document.getElementById('directName').value;
+      const phone = document.getElementById('directPhone').value;
+      const pin = document.getElementById('directPin').value;
+      const date = document.getElementById('directDate').value;
+      const slot = document.getElementById('directSlot').value;
+      const tests = document.getElementById('directTests').value || 'Routine / Fasting Consultation';
+      const address = document.getElementById('directAddress').value;
+
+      const refId = 'SVL-HC-' + Math.floor(100000 + Math.random() * 900000);
+
+      const msg = `*Sri Vijaya Clinical Laboratories - Home Sample Collection Booking*%0A%0A` +
+        `*Reference ID:* ${refId}%0A` +
+        `*Patient Name:* ${encodeURIComponent(name)}%0A` +
+        `*Phone / WhatsApp:* ${phone}%0A` +
+        `*PIN Code:* ${pin}%0A` +
+        `*Preferred Date:* ${date}%0A` +
+        `*Time Slot:* ${encodeURIComponent(slot)}%0A` +
+        `*Tests Requested:* ${encodeURIComponent(tests)}%0A` +
+        `*Home Address:* ${encodeURIComponent(address)}%0A%0A` +
+        `Please confirm our appointment and assign a phlebotomist. Thank you!`;
+
+      // Show friendly confirmation dialog and redirect to WhatsApp
+      alert(`Booking Request Submitted Successfully!\n\nReference ID: ${refId}\nPatient: ${name}\nDate: ${date} (${slot})\n\nYou will now be redirected to WhatsApp to send these booking details directly to our lab coordinator.`);
+      window.open(`https://wa.me/919577334499?text=${msg}`, '_blank');
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>
